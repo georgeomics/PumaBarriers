@@ -1,0 +1,36 @@
+# Non-relevant or large primary folders
+circuitscape/
+GIS/
+migrate/
+SNPs/
+
+# Non-relevant or large nested folders 
+DOCUMENTATION/
+
+EDA/SCRIPTS/Rscripts/Routput/
+
+Fst/deprecated/
+Fst/Rscripts_local/Routput/
+
+GIS/QGIS/
+GIS/SCRIPTS/old
+
+pop-structure/deprecated/
+pop-structure/figures/
+pop-structure/piedata/
+
+pop-structure/STRUCTURE/coombs/DATA/deprecated/
+pop-structure/STRUCTURE/SCRIPTS/Routput/
+
+pop-structure/TESS/coombs/SCRIPTS/Routput/
+# old local tess3r scripts
+pop-structure/TESS/SCRIPTS/
+
+PrelimPopGen/Routput/
+
+SNPs/DATA/deprecated/
+SNPs/DATA/Metadata/
+
+modeling/bayesian/coombs/
+modeling/bayesian/local/Routput/
+modeling/deprecated/

@@ -1,0 +1,1300 @@
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+Loading required package: usethis
+
+Attaching package: 'pkgbuild'
+
+The following object is masked from 'package:devtools':
+
+    build
+
+Loading required package: ade4
+
+   /// adegenet 2.1.10 is loaded ////////////
+
+   > overview: '?adegenet'
+   > tutorials/doc/questions: 'adegenetWeb()' 
+   > bug reports/feature requests: adegenetIssues()
+
+
+[1] "/home/ge199066/projects/puma-AZ/pop-structure/TESS/coombs/SCRIPTS"
+    PP01 PP02 PP03 PP04 PP05 PP06 PP07 PP08 PP09 PP10 PP11 PP12 PP13 PP14 PP15
+1     AA   TT   00   TT   AG   AG   CT   00   AG   CT   GG   AG   AG   CC   AC
+2     AG   TT   CC   TT   GG   AG   CC   00   AA   CT   AA   GG   GG   CC   AA
+3     AA   TT   CC   AA   GG   AG   CC   00   AA   TT   AA   AG   GG   00   AA
+4     AG   TT   00   TT   GG   AG   CC   00   AA   TT   GG   GG   AG   CC   AA
+5     GG   TT   00   AT   AG   GG   CC   00   AG   CT   AG   AG   GG   CT   AA
+6     AG   TT   CT   TT   GG   AA   CT   00   AG   CT   GG   00   GG   CT   AA
+7     AA   TT   00   AT   GG   AA   CC   00   AG   CC   AG   GG   GG   CT   AC
+8     AG   TT   00   TT   GG   AG   CC   00   GG   CT   AG   GG   GG   CC   AC
+9     AA   TT   CC   TT   00   AA   CC   00   AG   CT   AG   AG   AG   CC   CC
+10    AG   TT   CC   TT   GG   AA   CC   00   AA   TT   AA   AA   GG   CC   AA
+11    AA   TT   00   AT   GG   AG   TT   00   GG   TT   GG   AA   GG   CC   AA
+12    AA   TT   00   AA   GG   AA   CT   00   AA   TT   GG   AG   GG   CC   AA
+13    AG   TT   00   AA   GG   AG   CC   00   AA   TT   AG   AG   GG   CC   AC
+14    AA   TT   00   TT   GG   AG   CC   00   AG   CT   AG   GG   GG   CC   AC
+15    GG   TT   00   AT   GG   AA   CC   00   AG   TT   AG   AG   GG   CC   AA
+16    AA   TT   00   AT   GG   AG   TT   00   AA   CC   AG   AG   AG   CC   AA
+17    AG   CT   00   AT   GG   AG   CC   00   GG   CT   AG   AA   GG   CC   AA
+18    AA   TT   00   AT   GG   GG   CC   00   AG   CT   GG   GG   AA   CC   CC
+19    AG   TT   00   AT   GG   AG   CT   00   AG   CC   AG   GG   AG   CC   AC
+20    AG   TT   00   TT   GG   GG   CT   00   AG   TT   AA   AG   GG   CC   AC
+21    AG   TT   00   TT   GG   AG   CC   00   GG   CT   AG   AA   GG   CC   AA
+22    GG   TT   00   TT   AG   AG   CT   00   AA   TT   GG   AG   AG   CT   AA
+23    AA   CT   00   TT   AG   AA   CT   00   AG   TT   AA   AG   GG   CC   CC
+24    GG   TT   CC   00   GG   AG   CT   00   AG   CC   GG   AA   GG   CC   AA
+25    AG   TT   CT   TT   AG   AA   CT   00   AG   TT   AG   GG   AG   CC   AC
+26    GG   TT   CC   TT   GG   AA   CC   00   GG   CT   GG   AG   GG   CC   AA
+27    AA   TT   CC   TT   GG   AA   TT   00   AG   TT   GG   GG   GG   CC   AC
+28    AA   TT   CT   AA   AG   AG   TT   00   AG   CT   GG   GG   GG   CC   AA
+29    AG   TT   00   AA   GG   AA   CC   00   AG   TT   AG   AG   GG   CC   AA
+30    AG   TT   CC   AT   GG   AG   CC   00   AG   CT   GG   AA   AG   CC   AA
+31    AA   TT   CC   AA   GG   AA   CC   00   AG   CT   GG   GG   AG   CC   CC
+32    AG   TT   00   TT   AG   GG   TT   00   AA   TT   GG   AG   GG   CC   AC
+33    AA   TT   CC   AT   GG   AA   CC   00   AA   CC   AG   GG   AG   CT   AA
+34    GG   TT   CT   TT   GG   GG   CC   00   AG   TT   GG   AG   GG   CC   AC
+35    AG   TT   CC   TT   GG   AG   CC   00   AG   TT   AG   GG   GG   CC   AA
+36    AG   TT   CT   AT   AG   AA   CC   00   AG   CT   GG   GG   AG   CC   AA
+37    AG   TT   TT   TT   GG   AA   TT   00   AG   TT   GG   AG   AG   CC   AC
+38    AA   TT   00   TT   GG   AA   CC   00   AA   TT   GG   AA   GG   CC   AC
+39    AG   TT   CC   AT   GG   AA   CT   00   AG   TT   GG   AG   AG   CC   AA
+40    AG   TT   CC   AT   GG   AG   CC   00   AA   TT   GG   AG   GG   CC   AC
+41    AG   TT   CT   TT   GG   AA   CT   00   AG   CT   AG   AG   AA   CC   AC
+42    AG   TT   CT   TT   GG   AG   CT   00   AG   CT   GG   AG   AG   CC   AA
+43    AG   TT   CC   AT   AG   AA   CT   00   AG   CT   AG   AA   GG   CC   AA
+44    GG   TT   CC   TT   GG   AG   CT   00   AG   TT   AA   AA   AA   CC   CC
+45    AG   TT   00   AA   AG   AG   CT   00   GG   TT   AG   AA   GG   CC   AA
+46    AA   TT   00   TT   AG   AA   CT   00   AG   TT   AG   GG   AG   CC   AA
+47    AG   TT   00   AT   GG   AG   CC   00   AG   TT   GG   GG   AG   CC   CC
+48    AA   TT   00   AT   GG   AG   CC   00   GG   TT   GG   GG   AG   CC   CC
+49    AA   TT   00   TT   GG   AG   CT   00   AG   TT   AG   AA   GG   CT   AA
+50    AA   TT   00   TT   GG   AG   CC   00   AG   CT   GG   GG   AA   CC   CC
+51    GG   CT   00   AT   AG   AA   CT   00   AG   TT   GG   AG   AG   CC   AA
+52    AG   CT   CC   AT   GG   AA   CT   00   AG   TT   GG   AG   GG   CC   AA
+53    AG   TT   CC   AT   GG   AG   CT   00   AG   TT   GG   GG   GG   CC   AA
+54    AG   TT   00   TT   GG   GG   TT   00   AG   CT   AG   AG   AA   CC   AC
+55    AG   TT   00   TT   GG   AA   CT   00   AG   TT   GG   AG   GG   CT   AA
+56    GG   TT   00   AT   GG   AG   CC   TT   AG   CT   AG   AG   GG   CC   AC
+57    AA   CT   CC   AA   AG   GG   TT   00   AA   TT   GG   GG   GG   CC   AA
+58    AA   TT   CT   TT   GG   AG   CT   00   GG   CT   AG   GG   GG   CT   AA
+59    AA   TT   00   TT   GG   AG   CT   00   GG   TT   AG   AG   GG   CT   AA
+60    AG   CT   CC   TT   AG   AA   CC   00   GG   CT   AA   GG   GG   CC   AA
+61    AA   TT   CT   TT   GG   AG   CC   00   GG   TT   GG   GG   GG   CC   AA
+62    AG   TT   CC   TT   GG   AG   CT   00   GG   TT   GG   AG   GG   CC   AA
+63    AG   TT   CT   TT   AG   AG   CC   00   AG   TT   GG   AG   GG   CT   AA
+64    GG   CT   CC   TT   GG   AG   CC   00   GG   CT   AG   AA   GG   CT   AA
+65    AG   TT   CC   TT   GG   AG   CC   00   GG   TT   GG   AG   GG   CC   AA
+66    AG   TT   CC   TT   GG   AA   CC   00   AA   TT   GG   GG   AG   CC   AC
+67    AA   TT   00   TT   AG   AA   CC   00   GG   TT   GG   AG   GG   CT   AC
+68    AA   TT   CC   AT   GG   AG   CT   CT   GG   TT   AG   GG   AA   CC   AA
+69    AA   CT   CT   TT   GG   AG   CC   00   AG   TT   GG   AG   GG   CC   AA
+70    GG   CT   CC   TT   GG   AG   CC   00   AA   CT   GG   AA   GG   CC   AC
+71    AG   TT   CT   AT   AG   AA   CT   00   GG   TT   GG   GG   AG   CC   AA
+72    AG   TT   CC   AT   AA   AA   CC   00   GG   CT   GG   AG   GG   CC   AC
+73    AA   TT   CT   AA   AG   GG   CC   00   AA   CT   AG   AG   AG   CC   AC
+74    AG   TT   CC   AT   GG   AG   TT   00   GG   TT   GG   AG   AG   CC   AC
+75    AG   TT   CC   AT   GG   AG   TT   00   AA   CC   GG   GG   GG   CC   AA
+76    AG   TT   CC   AT   AA   AG   CC   00   GG   CT   GG   GG   GG   CT   AA
+77    AG   TT   CC   TT   GG   AA   CC   00   AG   TT   GG   AG   GG   CC   AC
+78    AG   CT   00   TT   AA   AG   CC   TT   GG   CC   AG   GG   AG   CC   AC
+79    AA   TT   CC   TT   GG   AG   CT   00   GG   CT   GG   AA   GG   CC   AC
+80    AG   TT   CT   TT   GG   AA   CT   TT   AG   TT   GG   AG   GG   CC   AA
+81    AG   TT   CC   TT   GG   AA   CC   00   AG   TT   GG   AG   AG   CC   AA
+82    AG   TT   00   TT   GG   AG   CC   CT   GG   CT   GG   AA   GG   CC   CC
+83    AA   TT   CC   AT   GG   AG   CC   00   AA   CC   GG   AG   AG   CC   AC
+84    AA   TT   CC   TT   GG   AA   CC   00   GG   CC   AG   AA   AA   CC   AA
+85    AA   TT   CC   AT   GG   AA   CC   00   AG   CC   GG   AG   AG   CC   AA
+86    AG   TT   CC   TT   GG   AG   CC   CC   GG   TT   GG   GG   GG   CC   AA
+87    AA   TT   CC   AT   GG   AA   CT   00   AA   TT   AG   AG   AG   CT   AC
+88    AG   TT   CC   AT   GG   AA   CT   00   AG   TT   AA   AG   AG   CC   AC
+89    AA   TT   CC   AT   AG   AA   CC   00   GG   CC   GG   GG   GG   CC   AC
+90    GG   TT   CT   AA   GG   AG   CT   CC   AG   TT   AG   GG   GG   CC   AA
+91    GG   TT   00   TT   GG   AA   CC   CT   AG   CT   GG   GG   AG   CC   AA
+92    AA   TT   CT   TT   GG   AG   CC   TT   AG   TT   AG   AG   AA   CC   AA
+93    AG   TT   CT   TT   GG   AG   CC   00   AG   CT   GG   AG   GG   CC   AC
+94    AA   TT   CC   AT   GG   AG   CT   CC   AA   CT   GG   AG   GG   CC   AC
+95    GG   TT   CC   AT   GG   AA   CT   00   AG   TT   GG   AG   AG   CC   AA
+96    AA   TT   CT   TT   GG   AA   CC   00   GG   CT   GG   AG   GG   CC   AC
+97    AA   TT   00   TT   GG   GG   CC   CC   AG   CT   AG   AG   GG   CC   AA
+98    AG   TT   CT   AT   GG   AG   CT   CC   AA   TT   GG   GG   GG   CC   AA
+99    AA   TT   CC   AA   GG   AG   CT   00   GG   TT   AG   AG   GG   CC   AC
+100   AA   TT   CC   TT   AG   AG   CT   00   GG   TT   GG   GG   AG   CC   AC
+101   AG   TT   CC   AT   GG   AG   CT   TT   AG   TT   AG   AG   GG   CC   AA
+102   AA   TT   00   AT   GG   AA   CT   TT   AA   TT   AA   AA   GG   CC   AA
+103   GG   TT   00   TT   AG   AG   CT   TT   AG   TT   GG   AA   GG   CC   AA
+104   AG   TT   TT   AT   AG   AA   CC   00   AG   CT   GG   AA   AG   CC   AA
+105   AA   CT   CC   AT   GG   GG   CT   00   AA   TT   AA   AA   AG   CC   AA
+106   AG   TT   CC   TT   AG   AA   CC   00   AA   TT   GG   AG   GG   CC   AC
+107   AG   TT   CC   AA   AG   AA   TT   00   AG   TT   GG   AG   GG   CC   AA
+108   AG   TT   00   AA   AG   AG   CC   CC   AG   CT   AG   AA   AG   CC   AC
+109   GG   TT   00   AT   GG   AG   CC   TT   AA   CT   AA   AA   AG   CC   AA
+110   AG   TT   00   AA   GG   AA   CT   CC   AA   TT   GG   AG   GG   CC   AC
+111   AA   CT   CT   AT   GG   AA   CC   00   AA   TT   AG   AG   AG   CC   AA
+112   AA   TT   00   AT   GG   AG   CC   TT   AG   CT   GG   GG   AA   CC   CC
+113   AA   TT   00   TT   AG   AA   CC   TT   AA   CC   AG   AG   AG   CT   AC
+114   AA   TT   00   AT   AG   AA   CC   CC   AG   TT   AG   AA   GG   CT   AA
+115   AA   TT   CC   AT   GG   GG   CC   00   AG   CT   GG   GG   AA   CC   CC
+116   AA   CT   00   TT   GG   AG   CT   TT   AG   TT   AG   AG   GG   CT   AA
+117   AA   TT   00   AT   GG   AA   CC   CC   AG   TT   GG   GG   GG   CC   CC
+118   AA   TT   00   AT   GG   AG   CC   TT   AA   CC   AG   AG   GG   CC   AC
+119   AA   CT   CC   AT   AA   AA   CT   00   AG   TT   GG   AG   GG   CC   AA
+120   AA   TT   00   TT   GG   AG   CC   TT   AA   TT   GG   AG   AA   CC   AC
+121   AA   TT   00   TT   GG   AA   TT   CT   AG   TT   AG   AA   GG   CT   AA
+122   AA   TT   00   TT   GG   AA   CC   TT   AG   CT   GG   AG   AA   CC   CC
+123   AG   CC   00   AT   GG   AG   CC   TT   AA   TT   AG   AA   GG   CC   AA
+124   AA   TT   CC   AA   GG   AA   TT   00   GG   TT   AA   GG   GG   CC   AA
+125   GG   TT   CC   AT   AG   AG   CT   TT   AA   TT   GG   AG   GG   CC   AA
+126   AG   TT   CC   TT   AG   AA   CT   CC   GG   CT   GG   GG   GG   CC   AA
+127   GG   TT   CC   AT   AG   AA   CT   00   AA   TT   GG   AA   GG   CC   AA
+128   AG   TT   CC   AT   AG   AA   CT   00   AG   TT   AG   AG   AG   CT   AA
+129   AG   TT   00   TT   AG   GG   CC   CC   AG   CT   GG   AG   GG   CT   AA
+130   AG   TT   CC   AT   GG   AG   CT   TT   AG   CT   AG   AG   AG   CT   AA
+131   AG   TT   CC   TT   AG   AG   CT   00   AA   TT   AG   AA   GG   CC   AA
+132   AA   CT   00   AT   AG   AG   CC   TT   AG   CT   GG   AA   GG   CC   AA
+133   AA   TT   CC   AA   AG   AA   CT   00   AG   CT   GG   GG   GG   CC   AA
+134   GG   TT   CC   TT   GG   AA   CC   00   GG   TT   AA   GG   GG   CC   AA
+135   AA   TT   CT   TT   GG   AG   CT   00   AG   CT   GG   AG   GG   CC   AA
+136   AG   TT   CT   TT   GG   AA   CT   00   AG   TT   GG   AG   AG   CC   AA
+137   AG   TT   CC   AT   GG   AG   CC   00   AA   CT   AG   GG   AG   CT   AA
+138   AA   TT   CC   AT   GG   AA   CC   CT   AG   CT   GG   AA   GG   CC   AC
+139   AA   TT   00   TT   GG   AA   CC   CC   AG   TT   AG   AG   AG   CC   AA
+140   AA   TT   00   AT   GG   AG   CT   TT   AG   TT   GG   AG   GG   CC   AA
+141   AG   TT   00   AA   AG   GG   CT   TT   AG   TT   AA   GG   AG   CC   AC
+142   GG   TT   CC   AT   GG   AG   CC   00   AG   CT   AG   GG   AG   CC   AA
+143   AA   CT   CC   TT   AG   AA   CC   00   GG   TT   AG   GG   GG   CC   AA
+144   AG   TT   CC   TT   GG   AA   CC   00   AA   TT   AA   GG   AG   CC   AA
+145   AG   TT   CC   AT   AG   AA   CC   00   AG   TT   GG   GG   GG   CT   AA
+146   AG   TT   00   AT   GG   AG   CT   TT   GG   TT   AG   GG   GG   CC   AA
+147   AG   TT   CC   TT   GG   AA   CC   00   GG   CT   GG   AG   GG   CC   AA
+148   AG   TT   CC   AA   GG   AA   TT   00   AA   TT   GG   GG   GG   CC   AA
+149   GG   TT   00   TT   GG   AG   CC   TT   AG   TT   AG   AG   AG   CC   AA
+150   AA   TT   00   AT   AG   AG   CC   CT   AG   CT   GG   GG   AG   CT   AC
+151   AA   TT   CC   TT   AG   GG   CC   00   AG   TT   AG   AG   GG   CT   AA
+152   GG   TT   CT   TT   GG   AG   CC   TT   GG   TT   AA   AG   AG   CC   AA
+153   AG   TT   CT   AT   AG   AG   CC   00   AA   TT   AG   GG   GG   CC   AA
+154   AG   TT   CC   TT   GG   AG   CT   00   AG   CT   GG   AG   AG   CC   AA
+155   AG   TT   CC   AT   GG   AA   CC   TT   GG   TT   AG   AG   GG   CT   AA
+156   AG   CT   00   TT   AG   AG   CC   TT   AG   TT   GG   GG   GG   CC   AA
+157   AA   TT   CC   TT   GG   AG   CT   CT   GG   TT   AG   AG   GG   CC   AA
+158   AA   TT   CC   TT   AG   AG   CT   00   GG   TT   AG   AG   GG   CC   AC
+159   AG   CT   CC   TT   AG   AG   CC   00   AG   TT   AG   GG   GG   CC   AA
+160   GG   TT   CC   TT   GG   AA   CT   00   GG   TT   AA   AG   AG   CC   AA
+161   AG   TT   CC   TT   GG   AG   CT   00   GG   TT   AG   GG   AG   CC   AA
+162   AG   TT   CC   TT   GG   AG   CC   00   AG   CT   AA   AG   AG   CC   AA
+163   AG   TT   CC   AT   AG   AG   CC   CT   AG   TT   GG   GG   GG   CC   AC
+164   AA   TT   CC   00   GG   GG   CC   TT   GG   CC   AA   GG   GG   CC   AA
+165   AA   TT   00   TT   GG   AG   CC   TT   AG   TT   GG   AG   AG   CT   AA
+166   GG   TT   CT   AT   GG   AG   CT   00   AG   TT   AG   AG   GG   CC   AA
+167   AG   TT   CC   TT   GG   AG   CT   00   AG   TT   GG   AG   AG   CC   AA
+168   AA   TT   00   TT   GG   AG   CT   CT   GG   TT   AA   GG   GG   CC   AA
+169   AG   CT   CC   TT   AG   AG   CC   00   AG   TT   GG   GG   AG   CT   AA
+170   AA   CT   CC   TT   GG   AA   CT   00   GG   TT   GG   AG   GG   CC   AA
+171   AA   TT   CC   TT   GG   AG   CT   00   AA   CT   AA   GG   GG   CT   AA
+172   AA   TT   CT   TT   GG   AG   CC   00   AA   TT   AG   AG   GG   CC   AA
+173   GG   TT   CC   TT   GG   AG   CC   00   AG   TT   AG   AG   AG   CC   AA
+174   GG   CT   CT   TT   AA   AG   CC   00   GG   CT   AG   GG   GG   CC   AA
+175   AA   CT   CC   AT   GG   AA   CT   CC   GG   TT   AG   AA   GG   CC   AA
+176   AG   TT   CC   TT   GG   AA   CC   00   GG   TT   GG   AG   GG   CC   AA
+177   AG   TT   00   AT   GG   AA   CC   TT   GG   TT   GG   AG   GG   CT   AA
+178   AG   TT   TT   AT   GG   AA   CC   00   GG   TT   AG   AG   GG   CC   AC
+179   AA   TT   00   AT   AG   AA   CC   CT   GG   TT   AG   AG   GG   CC   AC
+180   GG   TT   CC   AT   GG   AA   CT   TT   AA   TT   AG   AG   GG   CC   AC
+181   AG   TT   CT   TT   GG   AA   CC   00   AG   CT   AG   AG   GG   CC   AA
+182   AG   TT   CT   TT   AG   AA   CC   00   GG   TT   GG   AG   GG   CC   AC
+183   AA   TT   00   AA   GG   AA   CT   TT   GG   TT   GG   AG   GG   CC   AA
+184   AG   TT   CT   TT   AG   AG   CC   00   GG   CT   AG   GG   AG   CC   AA
+185   AA   TT   CT   AT   AG   AA   CC   00   GG   TT   AA   AG   AG   CT   AA
+186   AG   TT   00   TT   GG   AA   CT   CC   GG   CT   AA   GG   GG   CC   AA
+187   AA   TT   CC   AT   GG   AA   TT   00   GG   TT   AG   AA   GG   CT   AA
+188   AG   CT   CC   TT   AG   AG   CC   00   GG   TT   GG   GG   AA   CC   AA
+189   AA   CT   CC   AT   AG   AA   CT   00   GG   TT   GG   AG   GG   CC   AA
+190   AA   TT   CC   AT   AA   AA   CC   00   GG   TT   AG   GG   AG   CC   AA
+191   AG   TT   CT   TT   AG   AA   CC   00   AG   CT   GG   AG   GG   CC   AA
+192   AG   CT   CC   AA   GG   AG   CT   TT   AA   CT   AG   AG   GG   CT   AA
+193   AA   TT   00   TT   AG   AA   CT   TT   AG   CT   GG   AG   GG   CT   AA
+194   AA   CT   CC   TT   AG   AA   CT   00   AG   TT   GG   AG   AG   CC   AA
+195   GG   TT   CC   TT   AA   AG   CT   00   GG   CT   GG   GG   GG   CC   AA
+196   AG   TT   CC   AT   AG   AA   CT   00   AG   TT   AG   AG   GG   CC   AA
+197   AA   TT   00   TT   AG   AA   CT   CT   AG   TT   GG   AG   GG   CC   AC
+198   AG   TT   CC   AT   AG   GG   CT   00   GG   CT   AA   AG   GG   CC   AA
+199   GG   CT   00   TT   AA   AA   CC   TT   GG   CT   AG   GG   GG   CC   AA
+200   AG   TT   CT   AT   AG   AG   CC   00   AG   TT   GG   GG   GG   CC   AC
+201   AG   TT   CC   TT   AA   AG   CC   00   GG   CC   GG   GG   GG   CC   AA
+202   AA   TT   00   AT   GG   GG   TT   CT   AG   CC   GG   GG   GG   CC   AA
+203   AG   TT   CT   TT   AG   GG   CC   00   AA   CC   AG   GG   GG   CC   AA
+204   GG   TT   CC   AT   AG   AA   CT   00   AA   TT   GG   GG   GG   CC   AA
+205   AA   TT   CC   AT   GG   AG   TT   00   AG   CT   GG   GG   GG   CC   AA
+206   AG   TT   CC   TT   GG   GG   CC   00   GG   CT   GG   AG   GG   CC   AA
+207   AA   TT   CC   AT   AG   AG   TT   CT   AG   CC   GG   GG   GG   CC   AA
+208   AG   TT   CC   TT   AA   AA   CC   00   GG   CT   AG   GG   GG   CC   AA
+209   AG   CT   CC   TT   GG   GG   CT   00   AA   TT   GG   AG   GG   CC   AA
+210   AG   TT   00   TT   AG   AG   CC   TT   AG   CT   AG   GG   AG   CC   AA
+211   GG   TT   00   TT   AG   GG   CC   CT   AG   CT   AG   GG   AG   CC   AA
+212   AG   TT   00   AT   AG   AG   CC   TT   GG   CC   AG   AG   AA   CC   AA
+213   AG   CT   00   AT   AA   AG   CC   CT   GG   CT   AG   GG   GG   CC   AA
+214   AG   CC   00   TT   GG   AG   CT   CT   GG   CT   GG   GG   GG   CC   AA
+215   AA   TT   CT   AT   AG   AG   CC   00   GG   TT   AG   GG   GG   CC   AC
+216   GG   TT   CC   TT   AG   AA   CC   00   GG   TT   GG   GG   GG   CC   AC
+217   AA   CT   00   AT   AG   AG   CC   TT   GG   TT   GG   GG   GG   CC   CC
+218   AG   TT   CC   TT   GG   GG   CC   TT   GG   TT   AG   GG   GG   CC   AA
+219   GG   TT   CC   TT   AG   GG   CC   00   GG   CT   GG   GG   AG   CC   AC
+220   AG   TT   CC   TT   AA   AG   CC   00   GG   CT   AG   AG   GG   CC   AA
+221   AA   TT   00   TT   AA   AG   CC   TT   GG   CT   AG   GG   GG   CC   AA
+222   AG   TT   CT   TT   GG   AG   CC   TT   GG   TT   AA   GG   GG   TT   AA
+223   AA   TT   CC   AT   AG   GG   CT   CT   GG   CT   AG   GG   GG   CC   AA
+224   AA   TT   CC   AT   GG   GG   CT   CT   AG   TT   AA   AA   AG   CC   AC
+225   GG   TT   CC   TT   AG   AG   CC   CT   GG   CT   GG   AG   AG   CT   AA
+226   AG   TT   CC   TT   GG   AA   TT   CC   AA   CT   GG   GG   GG   CT   AA
+227   GG   TT   CC   AT   GG   AA   CT   CT   AA   CT   GG   GG   AG   CT   CC
+228   AG   TT   CC   AT   GG   AG   CC   CT   AA   TT   AG   AG   AG   CC   AA
+229   AG   TT   CC   AT   AA   AG   CC   CT   GG   TT   GG   GG   GG   CC   AC
+230   AG   TT   CT   TT   AG   AA   CC   CT   AG   TT   AA   GG   AG   CC   AA
+231   GG   TT   CC   TT   GG   GG   TT   CC   AG   CT   GG   GG   AG   CT   AA
+232   AG   TT   CC   TT   GG   AA   CC   TT   AA   TT   GG   GG   AG   CT   AC
+233   AG   TT   CC   TT   GG   AG   CC   CC   GG   TT   GG   AG   GG   CC   AC
+234   AA   TT   CC   AT   GG   AA   CT   TT   AG   CT   GG   GG   GG   CC   AA
+235   AG   TT   CC   TT   GG   AG   CC   TT   AG   CT   GG   GG   AG   CC   AA
+236   AA   TT   CC   AT   GG   AA   CT   CC   AA   TT   GG   GG   GG   CC   AA
+237   AA   TT   CC   AT   AG   AA   CT   CC   AA   CT   GG   AG   GG   CC   AC
+238   AA   TT   CC   TT   GG   AA   CC   CC   GG   TT   GG   GG   AG   CC   AA
+239   GG   CT   CT   AT   GG   AA   CT   CT   AG   TT   GG   AG   GG   CT   AA
+240   AG   TT   CC   AT   GG   AG   CC   TT   GG   TT   GG   AG   GG   CC   AA
+241   AG   TT   CC   TT   GG   AA   CC   CC   AG   CT   GG   GG   AG   CC   AA
+242   AG   TT   CT   TT   GG   GG   CC   CT   GG   TT   AG   GG   GG   CC   AA
+243   AG   TT   CT   TT   GG   AG   CT   CC   AA   TT   GG   AA   GG   CC   AC
+244   AA   TT   CC   TT   GG   GG   CC   CC   AA   TT   AG   GG   AA   CT   AC
+245   AA   TT   CC   TT   GG   AG   CC   TT   AA   CC   GG   AG   GG   CC   AC
+246   GG   TT   CC   TT   GG   AG   CC   CC   GG   TT   GG   AG   GG   CC   AC
+247   AA   TT   CC   AT   GG   AA   CC   CT   AG   CT   AG   AG   GG   CC   AC
+248   AA   TT   CC   TT   GG   AA   CT   TT   AA   CT   GG   AA   AG   CC   AC
+249   GG   TT   CC   AT   GG   AG   CC   CT   AG   CT   AG   AA   GG   CC   AA
+250   AA   TT   CC   TT   AA   AA   CC   CC   GG   CT   GG   AG   GG   CC   AA
+251   AG   TT   CC   TT   GG   AA   CC   TT   AA   CT   GG   AG   GG   CC   AC
+252   AA   TT   CC   AA   AG   AA   CC   CC   AA   CT   GG   GG   GG   CC   AA
+253   AA   TT   CC   AT   GG   AA   CC   CC   AA   CT   AG   GG   AG   CT   AA
+254   AA   CT   CT   AT   GG   AA   CC   CC   GG   CT   AG   AG   AG   CC   AC
+255   AG   TT   CC   TT   GG   AA   CC   CC   GG   TT   GG   AA   GG   CT   AA
+256   AA   TT   CT   TT   GG   AA   CC   CT   AG   CT   AG   AG   GG   CC   AC
+257   AA   TT   CC   AT   GG   AA   CC   TT   AG   TT   AG   GG   GG   CC   AA
+258   GG   TT   CC   TT   GG   AA   CC   TT   AG   TT   AG   AG   GG   CT   AC
+259   AG   TT   CC   AT   GG   AA   CT   CC   GG   CT   AG   AA   AA   CC   AA
+260   AA   TT   CC   AT   GG   AA   TT   TT   AG   TT   GG   GG   GG   CT   AA
+261   GG   TT   CC   AA   GG   GG   CC   CT   AA   CT   GG   AG   GG   CC   AA
+262   AA   TT   CC   AT   GG   AG   CC   TT   AG   CT   GG   GG   AG   CC   AC
+263   GG   CT   CC   AA   GG   AA   CC   CT   AG   TT   GG   AA   GG   CC   AA
+264   GG   TT   CC   TT   GG   AA   CC   CC   AA   TT   AA   GG   GG   CC   AC
+265   AA   TT   CC   TT   GG   AG   CT   CT   AA   TT   GG   GG   AG   CC   AA
+266   AG   TT   CC   AA   GG   AG   CT   TT   AG   TT   GG   GG   GG   CC   AA
+267   AG   TT   CC   TT   GG   AA   CT   CT   AG   CT   GG   AG   GG   CT   AC
+268   AA   TT   CC   TT   GG   AG   CT   CT   AG   TT   AG   GG   GG   CC   AA
+269   GG   TT   CT   TT   GG   AA   CT   CT   AA   TT   GG   AG   GG   CC   AA
+270   AG   TT   CT   TT   GG   AA   CT   CC   AG   TT   AG   AG   AG   CC   AA
+271   GG   CT   CT   AT   GG   AA   CT   TT   AA   CT   AG   GG   AG   CC   AA
+272   AA   TT   CC   AT   GG   AG   CC   CT   AG   TT   AG   GG   AG   CC   AA
+273   AA   TT   CC   AT   GG   GG   CT   CC   AG   TT   AA   AA   AG   CC   AA
+274   AG   TT   CT   AT   GG   GG   CT   TT   AG   TT   GG   AG   GG   CC   AC
+275   GG   TT   CC   AT   GG   AA   TT   CT   AG   TT   GG   AG   GG   CC   AA
+276   AA   TT   CT   AT   GG   AA   CC   CT   AG   TT   GG   AG   GG   CC   AA
+277   AG   TT   CC   TT   GG   AG   CC   CT   AA   TT   GG   AG   GG   CC   AA
+278   AA   CT   CC   AA   GG   AG   CC   TT   AG   CT   AG   GG   AG   CC   AC
+279   GG   TT   CC   AA   GG   AA   CT   CC   AA   TT   GG   AG   AG   CC   CC
+280   AA   TT   CC   AT   GG   AG   CC   CC   AG   CT   GG   AG   GG   CC   AA
+281   AG   CT   TT   AA   GG   AG   CT   CT   AA   TT   GG   AG   AG   CC   AC
+282   AG   CT   CC   AA   GG   GG   TT   CC   AA   TT   GG   AG   GG   CC   AA
+283   GG   TT   CT   AT   GG   AG   CT   CT   GG   CT   AG   AG   GG   CC   AC
+284   AG   TT   CC   TT   GG   AA   CT   CT   AA   TT   AG   AG   GG   CC   AA
+285   AG   CT   CC   TT   GG   AA   CC   CC   GG   TT   AG   GG   AG   CT   AC
+286   AG   TT   CC   AA   GG   AG   CC   CC   AA   TT   AG   AG   GG   CC   AA
+287   AA   CT   CT   AA   GG   AA   CT   CC   AA   TT   AG   AA   GG   CT   AA
+288   AG   TT   CC   AT   GG   AA   TT   TT   AA   TT   GG   AG   GG   CC   AA
+289   AA   TT   CC   AT   GG   AA   CC   CC   AA   TT   AA   AG   AG   CC   AC
+290   AG   TT   CC   AT   AG   AA   CC   CT   AA   CT   GG   AG   GG   CC   AC
+291   GG   TT   CC   AT   AG   AG   CC   CC   AA   TT   GG   GG   AG   CC   AA
+292   AA   TT   CT   AT   GG   AG   CC   CT   GG   TT   AG   AG   GG   CC   AA
+293   AG   TT   CC   AT   GG   AG   CT   CT   AA   TT   AG   AG   GG   CC   AA
+294   AG   TT   CC   AA   GG   AG   CC   CT   AG   TT   AG   AG   GG   CC   AA
+295   AA   TT   CC   AT   GG   AG   TT   CT   AA   TT   AG   AG   AG   CC   AC
+296   AG   TT   CC   TT   GG   AA   CC   CT   AG   TT   AA   AA   AG   CC   AA
+297   AG   TT   TT   AT   AG   AA   CT   CC   AA   CC   GG   AA   GG   CC   AA
+298   AA   TT   CC   AT   AG   AG   CT   CT   AG   TT   GG   AA   AG   CC   AA
+299   AG   CT   TT   AT   GG   AG   CT   CT   AA   TT   GG   AG   AG   CC   AA
+300   AA   TT   CT   AT   GG   GG   TT   TT   AA   TT   AA   AG   AG   CC   CC
+301   AG   TT   CT   AT   AG   AG   CT   TT   AA   CT   GG   GG   GG   CC   AC
+302   AG   TT   CC   AA   AA   AG   TT   TT   AA   TT   GG   AA   AG   CC   AC
+303   AA   TT   CC   AT   GG   AG   CC   TT   GG   TT   AA   GG   AG   CT   AA
+304   GG   TT   CC   TT   AG   AG   CT   CT   AA   CT   GG   GG   AA   CT   AA
+305   AA   TT   CC   TT   GG   AG   CC   CT   GG   CT   AG   AG   AA   CC   CC
+306   AG   TT   TT   AT   GG   AA   CC   TT   AG   TT   AG   GG   GG   CC   AA
+307   AG   CT   CT   AA   AG   AA   CC   CT   AA   TT   GG   GG   GG   CC   AC
+308   AA   TT   CT   AA   AG   AA   TT   CT   AG   CT   AG   AG   GG   CC   AA
+309   AA   TT   CT   AT   GG   AA   CT   CT   AA   CT   AG   GG   AG   CC   AC
+310   AG   TT   CC   TT   AG   AA   CC   TT   AA   TT   GG   AG   GG   CC   CC
+311   AA   TT   CT   AT   GG   AG   CT   CT   GG   TT   AG   AG   AG   CC   AA
+312   AA   TT   CT   AA   AG   AA   CT   TT   AA   TT   AG   AG   GG   CC   AA
+313   AA   TT   CC   AA   AG   AG   CC   CC   AA   CT   AG   AG   GG   CC   AC
+314   AA   TT   CC   TT   GG   AG   CT   TT   AG   TT   AG   AA   GG   CC   AC
+315   AA   TT   CC   AT   GG   AG   CC   CT   AG   TT   GG   GG   AG   CC   CC
+316   AA   TT   CC   TT   GG   AG   CC   TT   AA   TT   GG   AG   AG   CC   AC
+317   AA   TT   CT   TT   AA   AG   CC   TT   AA   CT   AG   AG   AG   CC   AC
+318   GG   TT   CC   TT   GG   AA   CC   TT   AA   CC   GG   GG   AA   CC   AC
+319   AG   TT   TT   AT   GG   AA   CT   TT   AG   TT   AG   AA   GG   CC   AA
+320   GG   CT   CT   AT   GG   AG   CC   CC   AA   CT   GG   AG   GG   CC   AA
+321   AG   TT   CC   AT   GG   AG   CC   CC   AG   TT   AG   AA   GG   CC   CC
+322   AA   TT   CC   TT   GG   GG   CC   TT   GG   TT   GG   AG   AG   CC   CC
+323   GG   TT   CC   AT   GG   AA   CT   CC   AG   CT   AG   GG   AG   CT   AA
+324   AA   CT   CT   TT   GG   AA   CC   TT   AG   TT   GG   AG   AG   CC   AA
+325   AG   TT   CT   TT   AG   AG   CC   TT   GG   TT   AA   AG   GG   CC   AC
+326   AA   TT   CT   AA   GG   AA   CC   CT   AA   TT   GG   AA   GG   CC   AC
+327   AG   TT   CC   TT   AA   AA   CT   CC   AA   CT   GG   GG   GG   CC   AA
+328   GG   TT   CC   TT   GG   AA   CC   CT   AA   TT   GG   GG   AG   CT   AA
+329   GG   TT   TT   AT   GG   AA   CT   CT   AG   CT   GG   AA   GG   CC   AA
+330   GG   TT   CC   AA   AG   AA   CC   CT   AG   TT   AG   AA   GG   CC   AA
+331   AG   TT   CC   AT   AG   AG   CC   CT   AG   TT   GG   AA   AG   CT   AA
+332   AG   CT   CC   AT   AG   AG   CC   CT   AG   TT   AG   AG   GG   CC   AA
+333   AG   CT   CC   TT   AG   AG   CT   CC   GG   CT   AG   AA   GG   CC   AA
+334   AG   TT   CT   TT   GG   AG   CT   TT   GG   TT   AG   GG   AG   TT   AA
+335   AG   CT   CC   AT   AG   AA   CT   CC   AG   TT   AG   GG   GG   CC   AA
+336   GG   TT   CC   TT   GG   AA   TT   CT   AA   TT   AG   GG   GG   CC   AA
+337   AA   TT   CC   TT   GG   GG   CC   CC   AG   TT   AG   GG   AG   CT   AA
+338   AG   TT   TT   TT   AG   AG   CT   TT   AA   CT   AG   AG   AG   CC   AA
+339   GG   TT   CC   TT   AG   AA   CC   TT   GG   TT   AG   AG   GG   CC   AC
+340   GG   TT   TT   TT   GG   AA   CC   TT   AG   CT   GG   AG   GG   CC   AA
+341   AG   TT   CT   AT   AG   AG   CC   CC   AG   TT   GG   AG   AG   CC   AA
+342   AA   CT   CC   AT   AG   AA   CC   TT   AA   TT   GG   GG   GG   CC   AA
+343   GG   TT   CC   AA   GG   AA   CC   TT   AA   TT   GG   AG   GG   CC   AA
+344   AG   TT   CT   AT   GG   AG   CT   CC   AG   TT   GG   AA   AG   CT   AA
+345   AG   TT   CT   AT   GG   AA   CC   TT   AA   TT   GG   GG   AG   CC   AC
+346   AG   TT   CC   AT   GG   AA   TT   CT   GG   TT   GG   AG   GG   CC   AA
+347   AA   CT   TT   AT   GG   AA   CT   TT   AA   TT   GG   GG   GG   CC   AC
+348   AG   TT   CT   AT   GG   AG   CC   CT   AG   TT   GG   GG   GG   CC   AA
+349   AA   TT   TT   TT   GG   AG   CT   CT   AG   TT   GG   AG   AG   CC   AA
+350   AA   TT   CT   TT   GG   AA   CC   CT   AG   CT   GG   GG   GG   CC   AC
+351   AG   TT   CT   TT   GG   AA   CT   CC   AG   CT   GG   AG   GG   CC   AA
+352   AG   TT   CC   AT   AG   GG   CC   CT   AA   CT   GG   GG   GG   CC   AC
+353   AG   TT   CC   AT   GG   GG   CC   CT   AA   CT   GG   AG   GG   CT   AA
+354   AA   TT   CC   AT   GG   AG   CT   CT   AG   CT   GG   GG   AG   CT   AC
+355   AG   TT   CC   AT   GG   AA   CT   TT   AG   TT   GG   GG   GG   CT   AA
+356   AA   TT   CC   TT   GG   GG   CC   CT   AG   TT   AA   AG   AG   CT   AA
+357   AA   TT   CC   AT   AG   AA   CC   CC   AG   CT   GG   GG   AG   CC   AC
+358   AG   TT   CT   AT   GG   AA   CC   TT   AG   TT   GG   GG   GG   CC   AA
+359   AG   CT   CC   TT   GG   AA   CT   CC   GG   TT   AG   AG   AG   CC   AA
+360   AG   TT   CT   AT   AG   AG   CT   TT   GG   CT   AA   AG   GG   CC   AA
+361   AG   TT   CC   AT   GG   GG   CC   TT   AG   CT   AG   AG   AG   CC   AC
+362   AG   CT   CC   AT   GG   AG   CC   TT   AG   TT   AG   AA   AG   CT   AA
+363   AG   TT   CC   TT   GG   AG   CC   CC   AG   TT   AG   AG   GG   CT   AC
+364   AA   TT   CT   AA   AG   GG   CC   TT   AG   TT   AA   AG   AG   CT   AA
+365   AA   TT   TT   TT   AG   GG   CT   CT   GG   TT   AG   AA   AG   CC   AA
+366   GG   TT   CC   AT   GG   AA   CC   CC   AG   TT   AG   AG   GG   CT   AA
+367   AA   TT   CC   AT   GG   AG   CT   CT   AA   TT   AG   GG   GG   CC   AA
+368   AG   TT   CC   AT   GG   AA   CT   CT   AA   CT   AG   GG   AG   CT   AC
+369   GG   TT   CC   AT   GG   AA   CC   TT   AA   TT   AG   AG   GG   CT   AA
+370   AG   TT   CC   AT   GG   AG   CC   CC   AG   TT   GG   AG   GG   CC   AC
+371   AG   CT   CT   AT   GG   AA   CC   CT   AA   TT   GG   GG   GG   CT   AA
+372   AG   TT   CC   TT   GG   AA   CC   CT   AG   TT   GG   AG   GG   CC   AA
+373   AA   TT   CT   AA   GG   AA   TT   TT   AG   TT   GG   AG   GG   CC   AC
+374   AG   TT   CC   AT   AG   GG   CC   CT   AG   CT   AG   AG   GG   CC   AA
+375   AA   TT   CC   AT   GG   AG   CC   CT   AG   TT   AG   AG   GG   TT   AA
+376   AA   TT   CT   TT   GG   AG   CT   TT   AG   CC   GG   GG   AG   CC   AA
+377   AG   CT   CC   TT   GG   GG   CC   TT   GG   CT   GG   AG   GG   CT   AA
+378   AG   TT   CC   TT   GG   AA   CC   CT   AG   TT   GG   AG   GG   CC   AA
+379   AA   TT   CC   AA   GG   AG   CC   CT   GG   TT   AG   AG   AG   CT   AA
+380   AA   TT   CC   AA   AA   AG   CC   TT   AA   TT   AG   AG   GG   CT   AA
+381   AG   TT   CT   AT   AG   AG   CC   CT   GG   TT   GG   AG   GG   CC   AA
+382   AA   TT   CC   TT   GG   AG   CT   CT   AG   TT   GG   AG   GG   CT   AA
+383   AG   TT   CC   AT   GG   GG   CC   CT   GG   TT   AG   AA   GG   CC   AA
+384   AA   TT   CT   AT   GG   AA   CC   CC   GG   TT   AG   AG   AG   CC   AC
+385   AG   CT   CC   TT   AA   AG   CT   TT   AA   TT   AG   AA   GG   TT   AA
+386   AA   TT   CC   AT   GG   AG   CT   CC   AG   TT   AG   GG   GG   CC   AC
+387   AG   CT   TT   AT   AA   AG   CC   CT   AA   TT   GG   AG   GG   CC   AA
+388   AA   CT   CC   AT   GG   AG   CC   CT   AG   TT   GG   GG   GG   CC   AA
+389   AG   TT   CC   AA   GG   AA   CT   CC   AG   TT   AG   AA   GG   CC   AA
+390   AA   CT   CT   TT   GG   AA   CC   CT   AG   TT   GG   GG   AG   CC   AA
+391   AG   TT   CT   AT   GG   AA   CC   CC   AG   CT   AG   AG   GG   CC   AC
+392   AG   TT   CT   TT   GG   GG   CC   CC   GG   TT   AG   AG   GG   CC   AA
+393   AG   TT   CC   TT   GG   AA   CC   TT   GG   TT   GG   GG   GG   CC   AA
+394   AA   TT   TT   AT   GG   AA   CC   TT   AG   TT   GG   GG   GG   CC   AA
+395   AG   TT   CC   AT   GG   AG   TT   TT   AG   TT   GG   GG   GG   CC   AA
+396   AG   TT   CC   TT   AG   AG   CT   TT   AG   TT   AG   GG   GG   CC   AA
+397   GG   TT   CC   TT   AG   AG   CT   TT   GG   TT   AG   AG   GG   CT   AA
+398   AG   TT   CT   AT   GG   AA   CT   TT   AG   TT   GG   GG   GG   CC   AA
+399   AG   TT   CC   TT   GG   GG   CC   CC   AA   TT   AG   AG   GG   CC   AA
+400   AG   TT   CC   TT   GG   AG   CC   CC   GG   TT   GG   AG   GG   CC   AA
+401   AA   TT   CC   AT   GG   GG   CT   TT   GG   TT   GG   AG   GG   CC   AA
+402   AA   TT   CT   TT   GG   AA   CC   TT   AG   TT   GG   AG   GG   CT   AA
+403   AA   TT   CC   AA   GG   AA   CT   CT   AG   CT   GG   GG   GG   CT   AC
+404   AG   CT   CT   TT   GG   AG   CT   CT   AG   TT   AG   GG   GG   CC   AA
+405   AA   TT   CT   TT   AA   AA   CC   TT   AA   TT   AG   GG   GG   CT   AC
+406   AG   TT   CT   TT   GG   AG   CT   CT   AA   TT   AG   AG   GG   CT   AA
+407   AG   TT   CC   AT   GG   AG   CC   CT   GG   TT   GG   GG   GG   CT   AA
+408   AA   CT   CT   TT   GG   AG   CC   CT   AG   TT   AG   AG   AG   CT   AA
+409   AA   TT   CC   AT   GG   GG   CC   CT   AG   CT   GG   AG   AG   CT   AA
+410   AG   TT   CC   TT   GG   AG   CT   TT   GG   TT   GG   GG   GG   CC   AA
+411   AA   TT   CT   TT   GG   AG   CC   TT   GG   TT   GG   AG   AG   CC   AA
+412   AG   TT   TT   AT   AG   AG   CC   CT   AG   TT   GG   GG   GG   CC   AA
+413   AA   TT   CC   TT   GG   AG   CT   CT   GG   TT   AG   GG   AG   CT   AA
+414   GG   TT   CC   AT   GG   GG   CC   CT   GG   CT   AG   AA   AG   CT   AA
+415   AA   TT   CT   TT   GG   AA   CT   CT   AA   TT   AG   GG   GG   CT   AA
+416   AG   TT   CC   AT   AG   AG   CT   CT   GG   TT   GG   AG   GG   CC   AA
+417   GG   TT   CC   TT   GG   AA   CC   CT   AA   TT   AG   AG   AG   CC   AC
+418   AA   TT   CT   TT   GG   AA   CT   TT   AG   TT   GG   AG   GG   CC   AA
+419   AA   TT   CC   TT   GG   AA   CC   TT   AG   TT   AG   AG   AG   CC   AA
+420   AA   TT   CT   AT   AG   AA   CT   CT   AA   CC   GG   GG   GG   CT   AA
+421   AA   TT   CC   TT   GG   AG   TT   TT   GG   TT   GG   GG   GG   CC   AA
+422   AA   TT   CC   TT   GG   AG   CC   CT   AG   TT   GG   AA   AG   CC   AA
+423   AG   TT   CC   TT   GG   AA   CC   CT   AA   TT   GG   AG   GG   CC   AA
+424   AG   TT   CC   TT   AG   AA   CC   TT   AA   TT   AG   GG   GG   CC   AA
+425   GG   TT   CC   AT   AG   GG   CT   CC   GG   CT   GG   AA   GG   CC   AA
+426   AA   TT   CC   TT   GG   AA   CC   CT   AG   TT   AA   AG   GG   CT   AA
+427   AG   TT   CC   TT   GG   AG   CT   TT   AA   TT   GG   AG   GG   CC   AA
+428   AA   TT   CC   TT   AG   AG   CT   CT   AA   TT   AG   AG   GG   CT   AA
+429   GG   CT   CC   TT   GG   AA   CC   TT   AG   TT   AG   AG   GG   CC   AA
+430   AA   TT   CC   TT   AG   AA   CC   CT   AG   TT   AG   GG   GG   CC   AA
+431   AG   TT   CC   TT   AG   GG   CT   TT   AG   CT   AA   GG   AG   CC   AA
+432   AA   TT   CT   TT   AG   AG   CT   CT   AG   CT   GG   AG   GG   CC   AA
+433   AG   TT   CC   TT   GG   AG   CT   CT   GG   TT   GG   AA   GG   CC   AA
+434   AG   TT   CC   AT   GG   AA   CC   CT   AG   CC   GG   GG   GG   CC   AA
+435   AG   TT   CC   TT   GG   AA   CC   CT   AG   TT   GG   AG   AG   CC   AA
+436   AA   TT   CT   TT   GG   AG   CT   CT   AG   CC   AG   AG   GG   CC   AA
+437   AG   CT   CC   AT   GG   AG   CC   CT   AG   CT   AG   AG   GG   CC   AA
+438   GG   TT   CC   TT   GG   AG   CT   TT   GG   CT   AG   AG   GG   CC   AA
+439   AG   CC   CT   TT   AG   AA   CT   CT   AG   TT   GG   AA   GG   CC   AA
+440   AG   CT   CC   TT   GG   AG   CC   CT   GG   TT   AG   GG   GG   CC   AA
+441   AG   TT   TT   AA   AG   AA   CT   TT   AA   TT   GG   AG   GG   CT   AA
+442   AA   TT   TT   TT   GG   AG   CC   CT   AA   CT   AG   AG   GG   CT   AA
+443   AG   TT   CC   AT   GG   AA   CC   TT   GG   TT   AG   GG   GG   CC   AA
+444   AA   TT   CC   AT   GG   AA   CT   TT   AG   TT   AG   AG   GG   CC   AC
+445   AA   TT   CC   TT   AG   AG   TT   CT   AG   TT   AG   AG   AG   CC   AA
+446   AG   TT   CC   AT   AG   AG   CT   TT   AG   CT   AG   AG   AG   CC   AC
+447   AG   TT   CC   AT   AG   AA   CT   TT   AG   TT   AA   AG   GG   CC   AA
+448   AG   CT   CT   TT   AG   AG   TT   CT   GG   TT   AG   AA   GG   CC   AA
+449   GG   TT   CT   TT   AG   AG   CC   CT   GG   TT   AG   AG   AG   CC   AA
+450   AG   TT   CC   TT   AA   AA   CC   TT   AG   TT   AG   GG   AG   CC   AA
+451   GG   TT   CC   TT   GG   AA   CC   TT   AG   TT   AG   GG   GG   CC   AA
+452   AG   TT   CT   AT   GG   AG   CC   CC   GG   TT   GG   AG   AG   CC   AC
+453   AA   TT   CC   AT   AA   AA   CC   TT   GG   CT   GG   AG   GG   CC   AC
+454   AA   TT   CC   TT   AA   AA   CC   TT   GG   CT   GG   GG   GG   CC   AA
+455   GG   TT   CT   AT   AG   AG   CC   TT   AG   TT   GG   GG   GG   CC   AA
+456   AG   TT   CC   TT   AG   GG   CT   TT   AG   TT   AA   GG   AG   CC   AA
+457   GG   TT   CT   TT   AG   GG   CC   CT   AG   TT   AG   AG   GG   CC   AC
+458   AA   CT   CC   TT   AG   AA   CC   CT   AG   TT   AG   AG   GG   CC   AA
+459   GG   TT   CC   AT   GG   AA   CC   CT   GG   CT   AG   GG   GG   CC   AA
+460   AG   TT   CC   AT   AG   AA   CT   TT   GG   TT   GG   GG   GG   CC   AA
+461   AG   TT   CT   TT   GG   AG   CT   TT   AG   CT   GG   GG   AG   CC   AA
+462   AG   TT   CC   TT   AG   AG   CC   TT   AG   CT   GG   AG   GG   CT   AA
+463   AG   TT   CC   TT   GG   AG   CT   TT   AA   TT   GG   AG   GG   CC   AA
+464   AA   TT   CT   TT   AG   GG   CT   TT   GG   CT   GG   GG   GG   CC   AA
+465   GG   TT   CC   TT   AG   AG   CC   TT   GG   CT   GG   GG   GG   CT   AA
+466   AG   TT   CC   AT   GG   AG   CC   TT   AG   CT   GG   GG   GG   CC   AA
+467   AG   TT   CT   AT   AG   AA   CC   CT   AG   TT   GG   GG   GG   CC   AA
+468   GG   TT   CC   TT   AA   AA   CT   TT   GG   TT   GG   GG   AG   CC   AA
+469   GG   TT   CC   TT   AG   AA   CT   CT   AG   TT   GG   GG   GG   CC   AA
+470   AA   TT   CT   AT   AG   GG   CT   TT   AG   CT   GG   GG   GG   CC   AA
+471   GG   TT   CT   AT   AA   GG   CT   CC   AG   CT   GG   GG   GG   CC   AC
+472   GG   TT   CC   AT   AA   AG   CT   TT   AG   TT   GG   AG   AG   CC   AA
+473   GG   TT   CC   TT   AG   AG   CC   TT   AG   CT   GG   GG   GG   CC   AA
+474   AG   TT   CT   AA   AG   AG   TT   TT   AG   CT   GG   GG   AG   CC   AC
+475   AG   TT   CC   AT   AG   GG   CT   TT   GG   TT   AA   GG   AG   CC   AC
+476   AG   TT   CT   TT   AG   GG   CT   CT   GG   CT   GG   AG   GG   CC   AA
+477   AA   TT   CC   AT   GG   AA   CT   CT   AG   TT   GG   GG   GG   CC   AA
+478   AG   TT   CC   AT   GG   AA   CT   CT   AG   TT   GG   GG   AG   CC   AA
+479   AG   TT   CC   AT   AG   AA   CC   TT   GG   CT   GG   GG   AG   CC   AA
+480   AG   TT   CC   AT   GG   AA   CT   TT   AG   TT   GG   GG   GG   CC   AA
+481   GG   TT   CC   TT   AA   GG   CT   CT   GG   TT   GG   AG   AG   CC   AA
+482   GG   TT   CC   TT   AA   AG   CT   TT   GG   TT   GG   AG   GG   CC   AA
+483   GG   TT   CC   TT   AG   AA   CT   TT   GG   TT   GG   GG   GG   CC   AA
+484   AG   TT   CC   TT   AA   AG   CC   TT   GG   CT   GG   GG   GG   CC   AA
+485   AG   TT   CC   TT   GG   GG   CT   CC   GG   CT   GG   AA   GG   CC   AA
+486   AG   TT   CC   AT   GG   AG   CC   TT   AG   CT   GG   GG   GG   CC   AA
+487   GG   TT   CC   TT   AA   GG   CC   TT   GG   CT   GG   GG   GG   CC   AA
+488   AG   TT   CC   AT   GG   GG   TT   TT   AG   CC   GG   GG   GG   CC   AA
+489   GG   TT   CC   TT   AG   AA   CT   TT   GG   CT   GG   GG   GG   CC   AA
+490   AG   TT   CC   TT   GG   AG   CC   TT   GG   CC   AG   GG   AG   CC   AC
+491   GG   CT   CC   TT   AG   AA   CC   CT   GG   CT   GG   GG   GG   CC   AC
+492   GG   TT   CT   TT   AG   GG   CC   CT   GG   CC   AA   GG   AG   CC   AA
+493   AA   TT   CC   TT   AG   AA   CC   TT   GG   TT   GG   GG   GG   CC   AA
+494   AA   TT   CC   TT   AA   AG   CC   TT   GG   TT   GG   GG   GG   CC   AA
+495   AA   TT   CC   TT   GG   AA   CT   TT   AG   CT   GG   GG   GG   CC   AC
+496   AG   TT   CC   AT   AA   AG   CC   TT   GG   CT   GG   AG   GG   CT   AA
+497   AG   TT   CC   AT   AA   AG   CC   TT   GG   CT   GG   AG   GG   TT   AA
+498   AG   TT   CC   AT   AG   AA   CC   CT   GG   CT   GG   AG   AG   CT   AA
+499   AG   TT   CC   TT   AA   AG   CC   CT   GG   TT   GG   GG   GG   CT   AA
+500   AA   TT   CC   AT   AG   AA   CC   TT   AG   TT   GG   GG   GG   CC   AC
+501   AG   TT   CC   AT   AG   AG   CC   TT   GG   TT   GG   GG   AG   CT   AA
+502   AG   TT   CC   TT   AG   AG   CC   CC   GG   TT   GG   GG   GG   CC   AA
+503   GG   TT   CC   TT   AA   AA   CC   TT   GG   TT   GG   GG   GG   CC   AA
+504   GG   TT   CC   TT   AG   GG   CC   CT   GG   CT   GG   AG   GG   TT   AA
+505   AG   TT   CC   TT   AA   GG   CC   CC   GG   TT   GG   GG   GG   CT   AC
+506   AG   TT   CC   TT   AA   AA   CC   TT   GG   TT   GG   GG   AG   CC   AA
+507   AG   TT   CC   TT   AA   AA   CC   TT   GG   TT   GG   GG   GG   CC   AA
+508   AG   CT   CC   AT   AA   AA   CT   TT   AG   TT   GG   AG   AG   CC   AC
+509   GG   TT   CC   TT   AG   AG   CC   TT   GG   CC   AG   GG   AG   CC   AC
+510   GG   TT   CC   TT   AG   AA   CC   TT   GG   CC   AG   GG   GG   CC   AA
+511   GG   TT   CC   TT   AG   AA   CC   TT   GG   CC   GG   GG   AG   CC   AC
+512   AG   TT   CC   TT   AA   AA   CC   TT   GG   TT   GG   GG   AG   CC   AA
+513   AG   TT   CC   TT   AA   AG   CC   CT   GG   TT   GG   GG   AA   TT   AA
+514   AA   TT   CC   TT   AG   AG   CC   CC   GG   CT   AG   GG   AG   CC   AC
+515   GG   TT   CC   AT   AG   AA   CC   CT   AG   TT   AG   AA   AG   CC   AA
+516   AG   TT   00   TT   AA   AA   CT   CC   GG   CT   AG   GG   GG   CC   AC
+517   AG   TT   00   AT   GG   AG   CC   00   GG   CT   GG   AA   GG   CC   AA
+518   AA   TT   00   TT   AA   AA   CC   00   GG   TT   GG   GG   GG   CC   AA
+519   AG   TT   00   TT   GG   GG   CC   00   AG   TT   AG   AA   GG   CC   AA
+520   AA   TT   00   TT   GG   AG   CT   CT   AG   CT   GG   GG   GG   CC   AA
+521   AA   TT   00   AA   GG   AG   CT   CT   AA   TT   GG   AA   GG   CC   AA
+522   GG   TT   00   AT   GG   AG   CC   CT   AG   CT   GG   AA   AA   CC   AC
+523   GG   TT   00   AT   GG   AA   CT   CC   AG   TT   GG   AG   AG   CC   AC
+524   AG   TT   00   AT   GG   AA   CT   CC   AG   TT   AA   GG   AG   CT   AA
+525   GG   TT   00   AT   GG   AG   CT   CT   AA   TT   AG   GG   GG   CC   AC
+526   AG   TT   00   TT   AG   AG   TT   CC   AA   TT   GG   AA   GG   CC   AC
+527   AG   TT   00   AT   GG   GG   CC   TT   AG   TT   GG   AG   AG   CC   AA
+528   AG   TT   00   TT   GG   GG   CT   TT   AG   CT   GG   AG   GG   CC   AA
+529   AG   CT   00   TT   GG   AG   CC   CT   AA   TT   GG   AA   GG   CC   AA
+530   AG   TT   00   TT   GG   AG   CC   TT   GG   TT   AG   AA   GG   CC   AA
+531   AG   TT   00   TT   GG   AG   CT   TT   AG   TT   GG   AA   GG   CC   AA
+532   AG   TT   00   AT   AG   AA   CC   TT   GG   TT   GG   AG   GG   CT   AA
+533   AG   TT   00   TT   GG   AG   CC   TT   AG   TT   AG   AG   GG   CC   AA
+534   AA   TT   CC   TT   GG   AA   CC   TT   GG   CT   AG   AG   AG   CC   AA
+535   AG   TT   00   TT   GG   AA   CC   CC   AA   CT   GG   AG   GG   CC   AA
+536   AG   CT   00   TT   GG   AG   CT   CC   AG   TT   AG   GG   GG   CT   AA
+    PP16 PP17 PP18 PP19 PP20 PP21 PP22 PP23 PP24 PP25
+1     CT   AC   CC   GG   CC   00   00   AG   GG   CT
+2     CT   00   00   00   CT   CC   AG   AG   AG   CC
+3     CC   AA   CT   GG   CC   00   00   AG   GG   TT
+4     CT   AC   CT   GG   CC   00   AG   00   GG   CT
+5     CT   AA   00   GG   CT   00   GG   AA   AG   CC
+6     CT   AC   CT   GG   CT   00   00   AG   AA   CT
+7     CC   AA   CC   GG   CC   00   GG   AA   GG   CC
+8     TT   CC   CC   GG   CT   00   GG   AG   AG   TT
+9     CT   AC   CC   GG   CC   00   AG   AA   AG   CT
+10    CT   AA   CC   GG   CC   00   00   AG   GG   CC
+11    CC   CC   CC   GG   TT   00   GG   AG   GG   CT
+12    TT   AA   CC   GG   CT   00   GG   AA   GG   CT
+13    TT   AC   CC   GG   CC   00   AG   AG   GG   TT
+14    CT   AA   CT   GG   CT   00   GG   AA   AG   TT
+15    CC   CC   CC   GG   CT   00   GG   AG   GG   TT
+16    CT   AA   CC   GG   CC   00   GG   AG   GG   CC
+17    CC   AA   CT   GG   CT   00   GG   AA   GG   CC
+18    CT   AA   CC   AA   CT   00   GG   AG   GG   CC
+19    CT   AC   CC   GG   CC   00   AG   AG   AG   CT
+20    CC   AA   CC   GG   TT   00   GG   AG   AG   TT
+21    TT   AC   CC   GG   CT   00   AG   AG   AG   CT
+22    CC   AA   CT   GG   TT   00   GG   AG   GG   CT
+23    TT   AC   TT   GG   CT   00   AG   AA   GG   CT
+24    CT   AA   CC   GG   CC   00   GG   AG   GG   CT
+25    CC   AA   CC   GG   CT   00   00   AA   AG   TT
+26    CT   AC   CC   GG   CC   00   AA   AA   00   CC
+27    CT   AA   CC   GG   CC   00   AA   00   GG   TT
+28    CT   CC   CC   GG   CT   00   GG   00   GG   CT
+29    CT   AA   CC   GG   CC   00   AG   AA   GG   TT
+30    CC   AC   CC   GG   CC   00   GG   AA   GG   CT
+31    CT   AA   CT   GG   CT   00   GG   AA   GG   CT
+32    CT   AA   CC   GG   CC   TT   AG   AG   GG   CT
+33    CC   AA   CT   GG   CC   00   AG   AA   GG   TT
+34    CT   AC   CC   GG   CC   00   AG   AA   AA   CT
+35    CT   AC   CT   AG   CT   00   AG   AG   AG   TT
+36    CT   AA   CC   GG   CC   00   GG   AG   AG   CT
+37    CT   CC   CC   GG   CT   00   AG   AG   GG   CT
+38    CT   AA   CC   GG   TT   CT   GG   AA   GG   CT
+39    CC   AC   CC   GG   CT   00   AA   GG   AG   CC
+40    CT   AA   CC   GG   CC   00   GG   AG   GG   TT
+41    CT   CC   CC   GG   CT   00   AG   AG   AG   TT
+42    TT   AC   CC   GG   CT   00   GG   AG   GG   CT
+43    CT   AA   CC   GG   CC   00   GG   AA   AG   CT
+44    TT   AC   CC   GG   CC   00   GG   AG   GG   CC
+45    TT   AC   CC   GG   CT   CC   GG   AA   GG   TT
+46    CT   AC   CC   AG   CT   CC   GG   AG   GG   CC
+47    CT   AA   CC   AA   CT   CC   GG   AG   GG   CC
+48    TT   AA   CC   AA   CC   CC   GG   AG   GG   CC
+49    CT   CC   CT   AA   CC   CC   AA   AA   AG   CT
+50    CT   AA   CC   AA   TT   CC   GG   AA   GG   CC
+51    CT   AA   CC   GG   TT   CC   GG   AG   GG   CT
+52    CC   AA   CC   GG   CC   00   AG   GG   AG   TT
+53    TT   AC   CT   AA   CT   00   AG   GG   GG   CT
+54    CT   AA   CT   GG   CC   CC   AG   GG   AG   CT
+55    TT   AA   CC   GG   TT   CC   AG   AG   GG   CT
+56    CT   AC   CT   GG   CT   00   GG   AA   GG   CT
+57    TT   AC   CC   GG   CT   00   AG   AA   AA   CT
+58    TT   AA   CT   GG   CC   00   AG   AA   GG   CT
+59    CT   AC   CC   GG   TT   CC   GG   AA   AG   TT
+60    CC   AA   TT   GG   CC   00   AG   AG   GG   TT
+61    CT   AA   00   GG   TT   CT   AG   AG   GG   TT
+62    CC   AC   CT   GG   CT   TT   00   AA   GG   TT
+63    CT   CC   CC   GG   CT   00   GG   AG   AG   CT
+64    CT   CC   CC   GG   CC   00   AG   AA   GG   CT
+65    TT   AC   CT   GG   CC   00   AA   GG   AG   CT
+66    CT   AA   CC   GG   CC   00   GG   AG   GG   CT
+67    CT   AA   CT   GG   CT   CC   AG   AA   GG   CT
+68    CT   AC   CC   GG   CC   00   AA   AG   GG   00
+69    TT   AC   CC   GG   CC   00   AG   AG   GG   TT
+70    TT   AA   CT   GG   CC   00   AG   AG   AG   TT
+71    TT   CC   CC   GG   CT   00   AA   GG   GG   CC
+72    TT   CC   CC   AG   TT   00   GG   AG   GG   TT
+73    TT   AA   CT   GG   CT   00   AG   AA   AG   CC
+74    CT   CC   TT   AG   CC   00   AG   GG   GG   CT
+75    CT   AA   CC   GG   CT   00   AG   AA   AG   CT
+76    CT   CC   CC   GG   CT   00   GG   AA   GG   CT
+77    TT   AC   CC   GG   CT   00   GG   AA   AG   CT
+78    TT   AA   CC   GG   CT   CC   GG   AA   GG   00
+79    CT   AC   CC   GG   CT   00   GG   AG   GG   CT
+80    CC   AC   CC   GG   TT   00   AG   AG   AG   TT
+81    CT   AA   CC   GG   CC   TT   GG   AA   AG   CT
+82    TT   AA   CC   GG   TT   CT   GG   AA   GG   CT
+83    CT   AA   CC   GG   CT   CC   GG   AA   GG   CC
+84    CT   AA   CC   GG   CC   CC   GG   AA   GG   TT
+85    TT   AC   CC   GG   CC   CC   GG   AA   GG   TT
+86    CT   AA   CC   GG   CC   CC   AG   00   AA   CT
+87    CT   AA   CC   GG   CC   CC   AG   AA   AA   CT
+88    TT   AA   CC   GG   CT   CC   GG   AG   AG   CT
+89    CC   AA   CT   AA   CT   CC   GG   AG   AG   CC
+90    CC   AA   CC   GG   TT   00   GG   AA   AG   CC
+91    CT   AA   CC   GG   CT   CC   GG   AG   AG   TT
+92    CT   AC   CT   AA   CT   00   GG   AA   AG   CC
+93    CT   AA   CC   GG   CC   CC   GG   AA   AG   CT
+94    CC   AC   CC   GG   CC   00   GG   AG   GG   CC
+95    CT   AA   CC   GG   CC   CT   AG   AA   AG   CT
+96    TT   AA   CT   GG   CT   CC   AG   AA   GG   CC
+97    CC   AC   CC   GG   CC   CT   AA   AG   AG   CC
+98    TT   AA   CC   GG   CT   00   GG   AG   AA   TT
+99    CT   AC   CC   GG   CT   CT   GG   AA   GG   TT
+100   CC   AC   CC   GG   CC   CC   AG   AG   AG   TT
+101   TT   CC   CC   GG   CC   00   AA   AG   GG   TT
+102   CT   AA   CC   GG   CT   CT   AG   AG   GG   CT
+103   CC   AC   CC   GG   CC   TT   GG   AA   GG   CT
+104   CT   AA   CC   GG   CC   CC   GG   GG   AG   CC
+105   CC   AA   CC   GG   TT   TT   AG   AG   GG   TT
+106   TT   AA   CT   GG   CT   TT   AA   AA   AG   TT
+107   CC   AC   CC   GG   CT   CT   AG   AA   GG   CT
+108   TT   AA   CT   GG   TT   CT   AG   AG   GG   TT
+109   CT   AC   CC   GG   CC   CC   AG   GG   GG   CC
+110   TT   AA   CC   GG   CT   CT   GG   AG   GG   TT
+111   CC   CC   CC   GG   TT   CC   GG   AA   GG   CT
+112   CT   AA   CC   AA   CT   CC   GG   AG   GG   CC
+113   CT   AA   CT   GG   CC   CC   AA   AG   AG   CT
+114   CT   AC   CC   GG   CC   CC   AG   AG   GG   TT
+115   CT   AA   CC   AA   CT   CC   GG   AG   GG   CC
+116   CC   AC   CT   AA   CC   CT   AG   AG   GG   CT
+117   CT   AA   CC   AA   CT   CC   GG   AA   GG   CC
+118   CC   AC   CC   GG   CT   CT   AG   AG   GG   CT
+119   CT   AC   CC   GG   CC   CC   GG   AG   GG   CT
+120   TT   AA   CT   AG   CT   CC   GG   AG   GG   CC
+121   TT   AC   CT   AG   CC   CC   AA   AA   AG   CT
+122   TT   AA   CT   AA   CC   CC   GG   AA   GG   CC
+123   CC   AC   CT   GG   CC   CC   AG   AG   AG   CT
+124   CT   AA   CC   GG   TT   CC   AG   AA   GG   TT
+125   CC   AC   CT   GG   CT   00   GG   AG   GG   CT
+126   TT   AA   CC   GG   CC   00   AA   AA   GG   CT
+127   CC   AC   CT   GG   TT   CC   GG   AA   GG   CT
+128   CC   AA   CC   GG   TT   CC   GG   AA   AG   CT
+129   CT   AA   CT   GG   TT   CC   AG   AA   AG   CC
+130   TT   CC   CT   GG   CC   00   AG   AA   GG   CT
+131   CC   AA   CC   GG   CC   CC   GG   AG   GG   CT
+132   CC   AC   CT   GG   CC   CC   AA   AG   GG   CT
+133   CC   AC   CC   GG   CT   CC   AA   GG   GG   CT
+134   CT   CC   CC   GG   CC   CC   AG   AA   GG   CT
+135   CC   AA   CT   GG   CC   CC   AG   AG   AG   CT
+136   CT   CC   CC   GG   CC   CT   AG   AG   GG   CT
+137   CC   AC   CC   GG   TT   CC   GG   AG   GG   TT
+138   CT   AC   CC   GG   CC   CC   00   GG   GG   TT
+139   CC   AC   CT   GG   CT   CC   GG   AG   AG   CT
+140   TT   AA   CT   GG   CT   CT   AA   AG   GG   TT
+141   CT   AC   CC   GG   TT   CC   AA   AA   GG   CT
+142   TT   AA   CT   GG   CC   CC   AG   AA   GG   TT
+143   CC   AA   CC   GG   CT   CC   AG   AG   GG   TT
+144   CC   AC   CT   GG   CC   CC   AA   GG   GG   TT
+145   CT   AC   CT   GG   CT   CC   AG   AG   GG   CC
+146   CC   AA   CC   GG   CT   CC   AG   AG   GG   TT
+147   CC   AA   CC   GG   CC   CC   AA   AG   GG   CT
+148   CT   AC   CC   GG   CC   CC   GG   AA   GG   CT
+149   CC   AA   CC   GG   TT   CT   AG   AG   GG   CT
+150   CC   AC   CC   GG   CC   CC   AA   GG   GG   CC
+151   CC   AA   CC   AG   CC   CC   AG   AG   GG   TT
+152   CT   AC   CT   GG   TT   00   AA   AA   GG   CT
+153   CT   AA   TT   GG   TT   CC   GG   AG   AG   CT
+154   TT   AA   CT   GG   CC   TT   AG   GG   GG   CT
+155   CC   AC   TT   GG   CC   00   AG   GG   GG   CT
+156   TT   AA   CC   GG   CT   CT   GG   GG   GG   TT
+157   TT   AC   CT   GG   CC   00   AG   AG   GG   TT
+158   CT   AA   CT   GG   CT   CC   AG   AA   GG   TT
+159   CT   AA   CC   AG   CC   CC   AG   AA   AG   TT
+160   CT   AA   CT   GG   CT   CC   AG   AG   GG   CT
+161   TT   AC   CT   GG   CC   CT   AA   AG   GG   CT
+162   CT   AC   CT   GG   CC   CC   GG   AA   AG   TT
+163   CC   AA   CC   GG   CT   00   GG   AA   GG   CT
+164   CT   AC   CC   GG   CT   CT   GG   AG   GG   TT
+165   CT   AC   CT   GG   CC   CC   AA   AG   GG   TT
+166   TT   AC   CC   GG   CC   TT   AG   AG   GG   TT
+167   CC   AC   CC   GG   CT   CC   AA   AA   GG   CT
+168   TT   AA   CC   GG   CC   CC   AG   GG   GG   CT
+169   CT   AA   CT   GG   CT   CC   AG   AA   GG   CT
+170   CT   AA   CT   GG   CC   CC   AA   AG   GG   CT
+171   CC   AC   CC   GG   TT   CC   GG   AG   GG   TT
+172   CC   AC   CT   GG   TT   CC   GG   AG   GG   CT
+173   CT   AC   CC   AG   TT   CC   GG   AG   AG   CT
+174   CC   AA   CC   GG   CT   CC   AG   AG   AG   TT
+175   CC   AC   00   GG   CC   CC   AG   AG   AG   TT
+176   CT   AC   CC   GG   CC   CC   AA   AA   GG   CC
+177   CC   AC   CC   GG   CC   CC   AG   AG   GG   TT
+178   CT   AC   CT   GG   CT   CC   AA   AG   GG   CC
+179   CT   AA   CC   GG   CC   CC   AG   AA   GG   TT
+180   CC   AC   CT   GG   CC   00   AG   GG   GG   TT
+181   CT   AC   CT   GG   CT   CC   AG   AA   GG   TT
+182   TT   AC   TT   GG   CT   CC   AG   AA   GG   CT
+183   TT   AA   CT   GG   TT   CC   GG   AA   AG   TT
+184   CC   AC   CT   GG   CT   CT   AA   AA   GG   CT
+185   TT   AC   CC   GG   TT   CC   AG   AA   GG   TT
+186   CT   AC   CC   GG   CT   CT   AG   AA   GG   CC
+187   CT   AC   CC   GG   CT   CC   AG   GG   GG   TT
+188   CT   AC   CC   GG   CT   CC   GG   AA   GG   CT
+189   TT   AC   CC   GG   CC   CC   AG   AA   GG   CC
+190   TT   AC   CC   GG   CT   CC   GG   AA   GG   CT
+191   CT   AA   CT   GG   CC   CC   GG   AG   GG   TT
+192   CT   AC   CC   GG   CT   00   AG   AA   GG   TT
+193   TT   AA   CT   GG   CT   CT   AG   AG   GG   CT
+194   TT   AC   CC   GG   CC   CC   AG   AG   GG   CT
+195   TT   AC   CC   GG   CC   CC   GG   AG   AG   CT
+196   TT   AA   CT   GG   CC   CT   AG   AA   AA   CT
+197   TT   AA   CC   GG   CC   CC   GG   AA   GG   TT
+198   CT   AC   CC   AA   CT   CC   GG   AG   GG   CT
+199   CT   AC   CC   GG   CT   CC   GG   AG   AG   CT
+200   TT   AC   CC   GG   CT   CT   AA   AG   AG   TT
+201   CC   CC   CC   GG   CT   CC   GG   AA   AA   CT
+202   CT   AC   CC   AG   TT   CC   AA   AA   AG   TT
+203   CT   AA   CC   GG   CC   CC   AA   GG   AG   TT
+204   CC   AA   CT   GG   CT   CT   GG   AG   GG   TT
+205   CT   AC   CC   GG   CT   CC   AG   AA   AG   CT
+206   CT   AC   CT   GG   TT   CC   AG   AA   GG   TT
+207   TT   AA   CC   AA   CT   00   AG   AA   AA   CT
+208   CC   CC   CC   GG   CC   CC   GG   GG   AA   CT
+209   CT   AA   CC   GG   CC   CC   AG   AA   GG   CT
+210   CT   AA   CT   GG   TT   CC   GG   AG   AG   CC
+211   TT   AA   CT   GG   TT   CC   GG   AA   AG   CC
+212   TT   AA   CC   GG   CT   CC   GG   AA   AG   TT
+213   CC   AC   CC   GG   TT   CC   GG   AG   GG   CC
+214   TT   AA   CC   GG   CT   CC   GG   AG   GG   CC
+215   TT   CC   CC   GG   CT   CC   AA   AG   AG   TT
+216   CT   AC   CC   AA   TT   CC   GG   AG   AG   CT
+217   TT   CC   CT   GG   TT   CC   GG   GG   GG   CC
+218   CT   AC   CC   GG   CT   CC   GG   AA   AA   00
+219   CC   CC   CC   GG   CC   CC   AG   AA   GG   CT
+220   CT   CC   CC   GG   CT   CC   GG   AA   GG   TT
+221   CC   CC   CC   GG   CC   CC   GG   AA   AA   CT
+222   CT   AA   TT   GG   CC   CT   AG   AA   GG   TT
+223   TT   AC   CT   GG   CT   CC   AG   AA   AG   CC
+224   CC   AA   CC   GG   CT   CC   GG   AG   AG   TT
+225   TT   AC   CC   AA   CC   CC   GG   AA   GG   CT
+226   CT   AC   CT   GG   TT   CC   AA   AA   GG   CT
+227   TT   AC   TT   GG   CT   CT   GG   AG   AG   CT
+228   CT   AA   CC   GG   TT   CC   GG   AG   GG   CT
+229   CC   AC   CC   AA   TT   CT   AG   AA   GG   CT
+230   TT   AC   CC   AA   CT   CC   GG   AA   GG   CT
+231   TT   AA   CC   GG   CC   CC   GG   AA   GG   CC
+232   CC   AC   CT   GG   CC   CC   AG   AG   AG   CT
+233   TT   AA   CC   GG   CT   CC   AG   AA   GG   CT
+234   CT   AA   CC   GG   CT   CC   GG   AA   GG   CC
+235   TT   AA   CC   GG   CT   CC   AA   AA   AG   TT
+236   CT   AC   CC   AA   TT   CC   GG   AA   AG   CT
+237   CT   AC   CC   GG   TT   CC   AG   AA   GG   TT
+238   TT   AA   CT   GG   TT   CC   AA   AA   GG   CT
+239   CC   CC   CT   GG   CC   TT   GG   AG   GG   CC
+240   TT   AC   CC   GG   CC   CC   AG   AA   GG   CC
+241   CT   AA   CC   GG   CC   CT   GG   AG   AA   CT
+242   CC   AA   CC   GG   CC   CT   GG   AA   AG   TT
+243   CT   AC   CC   GG   CC   CC   GG   AA   AG   CT
+244   CC   AC   CT   GG   CC   CC   AG   AA   AG   CT
+245   CT   AC   CC   GG   CT   CC   AG   AG   AA   CT
+246   CT   AA   CC   GG   CC   CC   AG   AG   AG   CC
+247   CC   AC   CT   GG   CC   CC   GG   AA   AG   CT
+248   CT   AC   CC   AA   CC   CT   GG   AG   AG   CT
+249   TT   AC   CC   GG   CC   CC   GG   AA   AA   CT
+250   CC   AC   CT   AG   TT   CC   GG   AA   AA   CT
+251   CC   CC   CC   GG   CT   CC   AG   AG   AA   CT
+252   CT   AC   CT   AA   CT   CC   GG   AA   GG   CT
+253   CT   AA   CC   GG   CC   CC   GG   AA   AG   CC
+254   CT   AC   CC   GG   CC   CC   AG   AA   AA   CT
+255   CT   AA   CC   GG   CT   CC   AG   AA   GG   CT
+256   TT   AA   CC   GG   CT   CC   AG   AA   GG   CT
+257   CT   AC   CT   GG   CT   CC   AG   AA   GG   CT
+258   CT   AC   CC   GG   CT   CC   AG   AA   AG   CT
+259   CT   AA   CC   GG   CT   CC   GG   AG   GG   TT
+260   CT   AA   CC   GG   CC   CC   GG   AG   GG   CT
+261   CT   CC   CC   GG   CC   CC   AG   AG   GG   CC
+262   CC   AC   CC   GG   CT   CC   GG   AG   GG   CT
+263   CC   AA   CT   GG   CC   CT   GG   GG   AG   CT
+264   CT   AA   CC   GG   CC   CC   GG   AA   AG   CT
+265   CT   AC   CC   AG   CT   CC   GG   AA   GG   CC
+266   CT   AC   CC   GG   CT   CT   GG   AG   AG   CT
+267   TT   AA   CC   GG   CT   CC   AG   AA   AG   CC
+268   CC   AA   CC   GG   CC   CC   AG   AA   AG   TT
+269   CT   AC   CC   GG   CC   CC   AG   AG   AA   CT
+270   CT   AC   CC   GG   CC   CC   GG   AA   GG   CC
+271   CT   AC   CC   GG   CC   CC   AA   AG   AG   TT
+272   TT   AA   CC   GG   CT   CC   GG   AA   AG   CC
+273   CC   AA   CC   GG   CC   CC   AG   AA   AG   CT
+274   CT   AC   CC   GG   CC   CT   AG   AG   AG   CT
+275   CT   AA   CC   GG   CC   CC   AG   AG   GG   CC
+276   TT   AC   CC   GG   CC   CT   AG   AG   AA   CT
+277   CC   AA   CT   GG   CC   CC   AG   AA   AA   CC
+278   CC   AA   CC   GG   CT   CC   AG   AG   AA   CC
+279   CT   AC   CC   GG   CT   CC   GG   AG   AG   TT
+280   CT   CC   CC   GG   CC   CT   AG   AG   AG   CT
+281   CT   AA   CC   GG   CT   CC   GG   AA   GG   TT
+282   CT   AC   CC   GG   CT   CC   GG   AA   GG   TT
+283   CC   AC   CC   GG   CC   CC   AG   AA   GG   TT
+284   CT   AA   CC   GG   CT   CC   GG   AA   GG   TT
+285   CT   AA   CC   GG   CC   CC   GG   AG   GG   CT
+286   CC   AA   CT   GG   CT   CC   AG   AG   GG   TT
+287   CT   AA   CC   GG   CC   CC   GG   AG   AG   CT
+288   TT   AC   CC   GG   CT   CT   AG   GG   AG   CT
+289   TT   CC   CC   GG   CC   CC   GG   AG   GG   CT
+290   CT   AA   CC   GG   CT   CC   GG   AA   GG   CT
+291   CC   AA   CC   GG   TT   CC   GG   AG   GG   TT
+292   TT   AC   CT   GG   CC   CC   GG   AA   GG   TT
+293   CT   AA   CT   GG   CC   CC   AG   AA   AG   TT
+294   CC   AC   CC   GG   CC   CT   GG   AG   GG   TT
+295   CC   AA   CC   GG   CT   CT   GG   AA   GG   TT
+296   CC   AC   CC   GG   CT   CC   AG   AG   GG   CT
+297   CT   AC   TT   GG   TT   CC   AG   AG   GG   CT
+298   CT   AA   CC   GG   CT   CC   GG   AA   GG   TT
+299   CT   AC   CC   GG   TT   CC   AG   AG   GG   CT
+300   CT   AC   CC   GG   CC   CC   GG   AA   GG   CC
+301   CT   AC   CT   GG   CC   CC   GG   AA   AG   TT
+302   CT   AA   CC   GG   CT   CC   GG   AA   GG   CT
+303   CT   AA   CT   GG   CT   TT   AA   AG   GG   TT
+304   CC   AC   CC   GG   CT   CC   GG   AA   GG   TT
+305   CC   AC   CC   GG   CC   CT   AG   AA   GG   CC
+306   CC   AC   CT   GG   TT   CC   GG   GG   GG   CT
+307   CC   AC   CC   GG   CT   CC   GG   AA   GG   CT
+308   CC   AA   CC   GG   CC   CC   AG   GG   GG   CT
+309   CT   AA   CT   GG   CC   CC   GG   AG   GG   CT
+310   TT   AC   CT   GG   CC   CC   GG   GG   GG   CT
+311   CT   AC   CC   GG   TT   CC   GG   AA   AA   TT
+312   CC   CC   CT   GG   CC   CC   GG   AG   GG   CT
+313   CT   AA   CC   GG   CC   CC   GG   AA   GG   TT
+314   CT   AC   CC   GG   CC   CC   GG   AA   GG   TT
+315   CC   AA   CC   AA   CT   CC   GG   AG   GG   CC
+316   TT   AA   CC   AA   CC   CC   GG   AG   GG   CC
+317   CT   AA   CC   GG   CT   CC   GG   AG   AG   CT
+318   CT   AA   CC   GG   CC   CC   GG   AG   GG   CT
+319   CC   AC   CT   GG   CC   CT   GG   AG   AG   TT
+320   CT   AA   CC   GG   CC   CT   GG   AA   GG   CT
+321   CC   AA   CC   GG   CC   CT   GG   AG   GG   CT
+322   TT   AA   CC   AA   CC   CC   GG   AG   GG   CC
+323   CT   AC   CC   GG   CC   CT   AA   AA   AG   CT
+324   CT   AC   CC   GG   CT   CC   AG   AG   AG   TT
+325   CT   AA   CC   GG   CC   CC   AG   AG   AG   TT
+326   CC   AC   CC   GG   CT   CT   AG   AA   AG   TT
+327   CT   AC   CT   GG   CT   CT   GG   AG   AG   CT
+328   CC   AC   CC   GG   CT   CC   AA   GG   AG   CC
+329   CT   AC   CT   GG   CC   CC   GG   AG   GG   CT
+330   CC   AC   CT   GG   CT   CC   AA   GG   GG   CT
+331   CC   AC   CC   GG   TT   CC   AG   AA   GG   CT
+332   CT   CC   CC   GG   CT   CC   AG   AA   GG   CT
+333   CT   AC   CC   GG   CT   CC   AG   AA   AG   CT
+334   CC   AA   CT   GG   CC   CT   AG   AA   GG   CT
+335   CT   AC   CT   GG   CT   CC   AG   AA   GG   CT
+336   CC   AA   CT   GG   CC   CC   AG   AG   GG   CT
+337   CC   AA   CT   GG   TT   CT   AA   AA   GG   CT
+338   TT   AC   CT   GG   CC   CT   AG   AA   GG   CC
+339   CT   AC   CC   AG   CC   CC   AG   AG   AG   TT
+340   CT   AC   TT   GG   CC   CC   GG   AG   AG   CT
+341   CT   AC   CC   GG   CT   CT   GG   AA   GG   CT
+342   TT   CC   TT   GG   CT   CT   GG   AA   GG   CT
+343   CC   AA   CC   GG   CC   CC   AA   AG   GG   CT
+344   CT   AA   CC   GG   CC   CC   GG   AA   AG   CT
+345   CT   AC   CT   GG   CT   CC   AG   AG   GG   CT
+346   CT   AA   CC   GG   CT   CC   AG   AG   GG   TT
+347   CT   CC   TT   GG   CC   CC   AA   AA   AG   CT
+348   CC   CC   CC   AG   CT   CC   GG   AA   GG   CT
+349   CT   AA   CC   GG   CT   CT   AA   AA   GG   CT
+350   CC   AA   CC   GG   CT   CC   GG   AG   GG   TT
+351   CC   AA   CC   GG   CC   CC   AG   GG   AG   TT
+352   TT   AA   CT   GG   CT   CC   GG   AA   AG   TT
+353   CC   AC   CC   GG   CT   CC   AA   AG   GG   CT
+354   CT   AC   CT   GG   CC   CT   GG   AG   AG   CC
+355   CT   AC   CC   GG   CT   CC   AG   AA   AG   CT
+356   CT   AC   CC   GG   CT   CC   AA   AG   AG   TT
+357   CC   AC   CC   GG   CT   CC   GG   GG   GG   CT
+358   CT   CC   CC   GG   TT   CC   AG   AG   AG   CC
+359   CC   AC   CT   GG   CC   CT   AG   AA   AG   CT
+360   TT   AC   CT   GG   CT   CT   AG   AA   AG   TT
+361   CT   AC   CT   GG   CT   CC   AG   AA   GG   CT
+362   CC   AC   CT   GG   CC   CC   AA   AG   GG   TT
+363   CT   AA   CT   AG   CT   CC   AG   AA   GG   CT
+364   CT   AC   CC   AG   CT   CC   AA   AA   AG   TT
+365   CC   AA   CT   GG   CT   CC   AG   GG   GG   TT
+366   CT   AA   CC   GG   CT   CC   AG   AA   AG   CT
+367   CT   AC   CT   GG   TT   CC   AG   AG   GG   CC
+368   CT   CC   CC   GG   CC   CC   AA   GG   GG   CT
+369   CC   AA   CC   GG   CT   CC   AG   AA   GG   TT
+370   CT   AC   CC   GG   CT   CC   GG   AG   AG   CT
+371   CT   AC   CC   GG   CC   CC   GG   AA   GG   CC
+372   CC   CC   CC   GG   CC   TT   GG   AA   GG   CC
+373   CC   AC   CC   GG   CC   CC   GG   AG   GG   CC
+374   TT   AC   CC   GG   CT   CC   AG   AG   GG   TT
+375   CC   AC   TT   AA   CC   CC   AA   GG   GG   TT
+376   CT   AA   CC   GG   CC   CC   AG   AG   AG   CT
+377   CT   CC   CC   AG   CT   CT   AA   AA   GG   CT
+378   CT   AC   TT   GG   CT   CC   GG   AG   GG   TT
+379   CT   CC   CT   GG   TT   CT   AA   AG   GG   TT
+380   CC   AA   CT   GG   CT   CC   GG   AG   GG   CT
+381   CC   AC   TT   GG   CT   CC   AG   AA   GG   TT
+382   TT   AC   CC   GG   TT   CT   AG   AA   GG   TT
+383   CT   AC   CT   GG   CC   CC   AG   AG   GG   CC
+384   TT   AA   TT   GG   CT   CC   AG   AA   GG   CT
+385   CT   AC   CT   GG   CC   CC   AG   GG   GG   TT
+386   CC   AC   CC   AG   CC   CC   GG   AA   GG   CT
+387   CC   CC   CT   GG   CT   CC   GG   GG   AG   TT
+388   CT   AA   CT   AG   CC   CC   GG   AA   GG   TT
+389   CT   AA   CC   GG   CC   CC   GG   AG   GG   CT
+390   CC   AC   CC   GG   TT   CC   GG   AA   GG   CC
+391   CT   AA   CT   GG   CT   CT   AG   AG   GG   CT
+392   TT   AA   CC   GG   CT   CC   AA   AG   AG   CT
+393   CT   AC   CC   GG   CC   CC   AG   AA   GG   CC
+394   CC   AC   CT   GG   CC   CC   AG   AG   GG   TT
+395   TT   AA   TT   GG   CT   CC   AG   AG   GG   TT
+396   TT   AA   CC   GG   CC   CC   AA   GG   AG   TT
+397   CC   AA   CT   AA   CC   CC   AA   AG   GG   TT
+398   TT   AA   TT   GG   TT   CC   AG   AG   GG   CT
+399   CC   CC   CT   GG   TT   CC   GG   AG   GG   CT
+400   CT   AA   CC   GG   CT   CC   GG   AG   GG   TT
+401   CC   AA   CT   GG   CT   CT   AG   AG   GG   CT
+402   CC   AA   CT   GG   CC   CC   AG   AA   AG   CT
+403   CC   AC   CC   AG   CT   CC   AG   AA   GG   CT
+404   CC   CC   CC   GG   TT   CC   GG   AG   GG   CT
+405   CC   AA   CC   GG   CT   CC   GG   AG   AG   TT
+406   CC   AC   CT   GG   TT   CC   AG   AG   GG   CT
+407   TT   AC   CT   GG   CT   CC   AG   AG   GG   TT
+408   CT   AC   CC   GG   CT   CC   AG   AA   AG   CT
+409   CT   AA   CC   GG   TT   CC   AG   GG   GG   CT
+410   CT   AA   TT   GG   CC   CC   AG   AG   GG   TT
+411   CC   AC   CT   GG   CT   CC   GG   AA   AA   TT
+412   CC   AC   CC   AG   CT   CC   GG   AA   GG   CT
+413   CC   AC   CT   GG   CT   CC   AG   AA   GG   CC
+414   TT   AC   CC   GG   CT   CC   AG   AA   GG   CT
+415   CC   AA   CC   GG   CT   CC   GG   AA   GG   CT
+416   CC   CC   CT   GG   CT   CC   AG   AG   GG   TT
+417   TT   AA   CT   GG   CT   CC   AG   AG   GG   TT
+418   CT   AA   CC   GG   TT   CC   AG   AG   AA   TT
+419   CT   AC   CC   GG   CT   CC   GG   AA   GG   TT
+420   CT   AC   CT   GG   TT   CC   GG   AA   GG   CT
+421   TT   AA   CT   GG   CT   CC   AG   AG   GG   CT
+422   CT   AC   CC   GG   CT   CC   GG   GG   GG   CT
+423   TT   AC   CC   GG   CT   CC   AG   AG   GG   TT
+424   CT   AA   CT   GG   CT   CT   GG   AG   GG   TT
+425   CT   AA   CC   GG   CT   CC   GG   GG   GG   TT
+426   CC   AC   CC   GG   CT   CC   AG   AA   GG   CT
+427   TT   AC   CT   GG   CT   CT   AG   AG   GG   CC
+428   CC   AC   CT   GG   CT   CC   GG   AG   GG   TT
+429   CT   AC   CT   GG   TT   CC   AG   AG   GG   TT
+430   TT   CC   CT   GG   CT   CC   GG   AG   GG   CT
+431   TT   AA   CC   GG   CT   CC   AA   AA   AG   TT
+432   CC   AC   CC   GG   CT   CC   GG   AG   GG   TT
+433   TT   AC   CT   GG   CC   CC   AA   AG   GG   CT
+434   CT   AA   CT   GG   TT   CC   AG   AA   GG   CT
+435   TT   AA   CC   GG   CT   CC   AG   AG   GG   CT
+436   CC   CC   CC   GG   CC   CC   GG   AG   GG   TT
+437   TT   AA   CT   GG   CT   CC   AA   AA   GG   TT
+438   TT   AC   CC   GG   CC   CT   AG   AA   GG   CT
+439   CT   AA   CC   GG   CT   CC   GG   AG   GG   CC
+440   CT   AA   CC   GG   CT   CC   AA   GG   GG   TT
+441   CT   AC   CT   AG   CC   CC   GG   AA   GG   CT
+442   CC   AA   CC   GG   CC   CC   AG   AG   AG   CT
+443   CT   AC   CT   AG   CC   CC   AA   AG   GG   CT
+444   CC   AC   CT   GG   CC   CC   GG   AA   GG   CT
+445   TT   AA   CC   GG   CT   CC   AG   AG   AG   CC
+446   CT   AA   CT   GG   CC   CC   AG   AG   AG   CT
+447   TT   CC   CT   GG   CC   CC   GG   AA   GG   CT
+448   TT   AA   CT   GG   CC   CC   AG   AA   GG   CT
+449   CC   AA   CC   GG   CT   CT   GG   AA   AG   CT
+450   TT   AC   CC   GG   CT   CC   GG   AG   GG   TT
+451   CT   AA   CC   GG   CT   CC   AG   AG   AG   TT
+452   CT   AC   CC   GG   CC   CC   AG   AA   GG   CT
+453   CT   CC   CT   GG   CT   CC   GG   GG   GG   CT
+454   CT   AC   CC   AA   TT   CC   GG   AG   GG   CT
+455   CC   AC   CT   GG   CT   CT   AG   AA   GG   CC
+456   TT   AA   CC   GG   CC   CC   AA   AG   GG   CT
+457   CT   AA   CC   GG   CT   CT   GG   AG   AG   CT
+458   CT   AC   CC   GG   CC   CC   AA   AG   GG   CT
+459   CT   AC   CT   GG   TT   CC   AG   AG   GG   CT
+460   CT   CC   CC   AG   TT   CC   GG   AA   GG   CT
+461   TT   AC   CT   GG   CT   CC   AA   AG   GG   TT
+462   TT   AC   CT   GG   TT   CC   GG   GG   GG   CC
+463   CC   AA   CC   GG   CC   CC   GG   AG   GG   CC
+464   CT   AA   CC   GG   CT   CC   AG   AG   GG   CT
+465   CC   AC   CC   GG   CT   CC   AG   AA   AG   CT
+466   TT   AC   CC   AG   CT   CC   GG   AA   AG   CT
+467   CC   AA   CC   AG   TT   CT   AG   AA   GG   CT
+468   TT   CC   CC   AA   CC   CC   GG   AG   AG   CT
+469   CT   AC   CT   AA   CT   CT   GG   AG   GG   TT
+470   CT   AA   TT   GG   CT   CC   AG   AG   GG   TT
+471   CT   AC   TT   GG   CT   CT   GG   AA   GG   CT
+472   TT   AC   CT   AG   CT   CC   AG   AG   GG   CT
+473   TT   AA   CC   GG   CC   CC   GG   AA   GG   CT
+474   TT   CC   CT   AG   CT   CC   AG   AG   GG   CT
+475   TT   CC   CC   GG   CT   CC   AG   GG   GG   CT
+476   TT   AC   CC   GG   CT   CC   AA   AA   AG   TT
+477   TT   AC   CC   AG   CC   CC   AG   GG   GG   CT
+478   CT   CC   CC   AA   CT   CC   GG   AA   GG   CT
+479   CT   AA   CC   GG   CT   CC   AG   AA   GG   TT
+480   CT   AA   CT   GG   CT   CT   GG   AG   GG   TT
+481   TT   CC   CC   GG   CC   CC   AG   AG   AG   CT
+482   CT   AC   CC   AG   CC   CC   AG   AG   AG   CT
+483   CT   CC   CT   AG   CC   CC   GG   AG   AG   CT
+484   CC   CC   CC   GG   CC   CC   GG   AG   GG   CT
+485   CT   AC   CC   GG   CT   CC   AA   AG   AG   TT
+486   TT   AC   CT   GG   CT   CC   AG   AG   GG   CT
+487   CC   AC   CT   GG   CC   CC   AG   AA   AG   CT
+488   TT   CC   CT   GG   CT   CC   GG   AA   AA   CT
+489   CC   AA   CT   GG   CC   CC   GG   AG   GG   TT
+490   TT   AA   CT   GG   TT   CC   GG   AA   AG   CT
+491   TT   AC   CC   GG   CT   CC   GG   AA   GG   CT
+492   TT   AA   CC   GG   TT   CC   GG   AA   AG   CT
+493   TT   CC   CT   GG   TT   CC   GG   AA   GG   CT
+494   CT   AC   CC   GG   CT   CC   AG   AG   AG   CT
+495   TT   AC   CC   AG   CT   CC   GG   AA   GG   CT
+496   TT   AC   CC   GG   TT   CC   GG   AG   GG   CT
+497   TT   AC   CC   GG   CT   CC   GG   GG   GG   CT
+498   TT   AC   CC   AG   CT   CC   GG   AG   GG   CT
+499   TT   AA   CC   GG   CC   CC   GG   AG   AA   CT
+500   CT   CC   CT   GG   CT   CC   GG   AA   GG   CC
+501   CT   AA   CC   AA   TT   CT   GG   AA   GG   CT
+502   CT   AA   CC   GG   TT   CC   GG   AA   AG   CT
+503   CT   CC   CC   GG   CC   CC   GG   AG   AA   CT
+504   TT   AC   CC   GG   CC   CC   GG   AG   GG   CT
+505   CT   AC   CC   AA   CT   CC   GG   AA   AG   CC
+506   CT   AC   CC   GG   CT   CC   GG   AA   AG   CT
+507   CT   AA   CC   GG   CT   CC   GG   GG   AA   TT
+508   CT   AC   CC   GG   TT   CC   GG   AA   GG   CC
+509   TT   AC   CT   GG   TT   CC   GG   AA   GG   CT
+510   CT   AC   CC   GG   TT   CC   GG   AA   GG   CT
+511   CT   CC   CT   GG   TT   CC   GG   AA   GG   CT
+512   CC   AA   CC   GG   CT   CC   GG   AA   AA   CT
+513   CT   AA   CC   AG   TT   CC   GG   AG   GG   CT
+514   CC   CC   CC   GG   CT   CC   GG   AA   AG   CT
+515   TT   AA   CT   GG   CC   CT   GG   GG   GG   CT
+516   TT   AA   CT   GG   TT   CC   GG   AA   AG   CT
+517   TT   AA   CT   GG   TT   00   AG   AG   GG   TT
+518   CT   AC   CC   GG   CC   00   GG   AG   GG   CT
+519   CC   AC   CC   GG   CC   CC   GG   AA   AG   TT
+520   TT   AC   CT   GG   CT   CT   GG   AA   GG   CT
+521   CC   AC   CC   GG   CC   CC   GG   AA   AG   TT
+522   TT   AA   CC   GG   CT   CT   AG   AA   AG   CT
+523   CC   CC   CC   GG   CT   CT   GG   AA   GG   CT
+524   TT   CC   CC   GG   CT   CT   AA   AA   GG   CT
+525   CT   AC   CC   GG   CC   CC   GG   AG   AG   CT
+526   CC   CC   CC   AG   CT   TT   GG   AA   AG   CT
+527   TT   AA   CC   GG   CT   CC   AG   AA   GG   TT
+528   CT   AA   CC   GG   CC   CC   AG   AG   GG   CT
+529   CT   AA   CC   GG   CT   CC   AA   AG   AG   TT
+530   TT   AA   CC   GG   TT   CC   AG   AG   GG   TT
+531   CT   AC   CC   GG   CT   CC   AG   AA   GG   CT
+532   CC   AC   CC   GG   CT   CC   AG   GG   GG   CT
+533   CT   AA   CC   GG   CC   CT   AA   AG   GG   TT
+534   CT   AC   CT   GG   CC   CC   AA   AA   GG   TT
+535   CT   AC   CT   GG   CT   CC   AG   AA   AG   TT
+536   CC   AC   CT   AG   TT   CT   GG   AG   GG   CT
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
+== Computing spectral decomposition of graph laplacian matrix: done
+==Main loop with 16 threads: done
