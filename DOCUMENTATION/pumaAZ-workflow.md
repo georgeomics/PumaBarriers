@@ -1,5 +1,5 @@
 # Arizona Puma Project Pipeline
-Manuscript available at: https://doi.org/10.1016/j.biocon.2026.111877
+Manuscript *"Evaluating the impact of landscape features on genetic structure in pumas using a hypothesis-based Bayesian approach"* available at: https://doi.org/10.1016/j.biocon.2026.111877
 
 # Overview
 Below is a brief outline regarding the steps completed for this project:
