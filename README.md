@@ -1,7 +1,7 @@
-# Puma-AZ Project Pipeline
+# Arizona Puma Project Pipeline
+Manuscript available at: https://doi.org/10.1016/j.biocon.2026.111877
 
 # Overview
-
 Below is a brief outline regarding the steps completed for this project:
 
 * Data Download
@@ -29,7 +29,6 @@ Below is a brief outline regarding the steps completed for this project:
   * STRUCTURE-like Barplots
 
 # Data Download
-
 SNP data was downloaded from Fitak et al. 2016's dataset available at https://doi.pangaea.de/10.1594/PANGAEA.835154.
 
 Landscape feature data included the following
