@@ -1,7 +1,7 @@
 rm(list=ls())
 library(loo)
 
-filepath <- "/Users/georgezaragoza/Library/CloudStorage/OneDrive-Personal/UCF/Projects/Puma-AZ/Github/PumaBarriers/modeling/bayesian/local/Routput/"
+filepath <- "modeling/bayesian/local/Routput/"
 nonspatial <- "02172026_nonspatial/"
 spatial <- "02172026_spatial/"
 
@@ -97,7 +97,7 @@ spatial <- "02172026_spatial/"
 rm(list=ls())
 library(loo)
 
-filepath <- "/Users/georgezaragoza/Library/CloudStorage/OneDrive-Personal/UCF/Projects/Puma-AZ/Github/PumaBarriers/modeling/bayesian/local/Routput/"
+filepath <- "modeling/bayesian/local/Routput/"
 nonspatial <- "02172026_nonspatial/"
 spatial <- "02172026_spatial/"
 

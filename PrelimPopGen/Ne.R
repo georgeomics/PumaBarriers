@@ -52,7 +52,7 @@ gl <- gl.filter.monomorphs(gl)
 gl <- gl.filter.maf(gl, threshold = 0.05)
 
 # estimate LD-based effective population size (Ne)
-Ne_out <- gl.LDNe(gl, neest.path = "/Users/georgezaragoza/Library/CloudStorage/OneDrive-Personal/UCF/Projects/Puma-AZ/Github/PumaBarriers/software/NeEstimator")
+Ne_out <- gl.LDNe(gl, neest.path = "software/NeEstimator")
 
 Ne_out  # print Ne results
 
@@ -134,7 +134,7 @@ gl_sub <- gl.keep.ind(gl, ids_keep)
 nInd(gl_sub) 
 pop(gl_sub) <- factor(rep("GZ", nInd(gl_sub))) # assign new pop GZ for selected
 
-Ne_out <- gl.LDNe(gl_sub, neest.path = "/Users/georgezaragoza/Library/CloudStorage/OneDrive-Personal/UCF/Projects/Puma-AZ/Github/PumaBarriers/software/NeEstimator")
+Ne_out <- gl.LDNe(gl_sub, neest.path = "software/NeEstimator")
 Ne_out
 
 
